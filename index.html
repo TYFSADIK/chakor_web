@@ -3,41 +3,193 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Chakor — your AI, on your hardware</title>
-<meta name="description" content="Chakor is an open source AI workspace you run yourself. Local models, web search, documents, compare, notes and memory. No cloud, no tracking, no big tech." />
+
+<!-- Primary SEO -->
+<title>Chakor — Free Open Source AI Workspace | Run AI on Your Own Hardware</title>
+<meta name="description" content="Chakor is a free, open source AI workspace you self-host. Chat with local models (Ollama, llama.cpp, LM Studio) or cloud APIs. No tracking, no big tech. Works on Linux, macOS, Windows and Android." />
+<meta name="keywords" content="chakor, open source AI, self hosted AI, local AI chat, private AI workspace, Ollama UI, llama.cpp interface, AI workspace, free AI app, privacy AI, self hosted chat, AI on your hardware" />
+<meta name="author" content="Chakor" />
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<link rel="canonical" href="https://ai.tyfsadik.org/" />
 <meta name="theme-color" content="#16161e" />
+<meta name="color-scheme" content="dark" />
 
-<!-- Open Graph -->
-<meta property="og:title" content="Chakor — your AI, on your hardware" />
-<meta property="og:description" content="Run any AI model on your own machine. Keep every conversation. No cloud, no tracking, no big tech." />
+<!-- Open Graph (Facebook, LinkedIn, WhatsApp, iMessage) -->
 <meta property="og:type" content="website" />
+<meta property="og:url" content="https://ai.tyfsadik.org/" />
+<meta property="og:site_name" content="Chakor" />
+<meta property="og:title" content="Chakor — Free Open Source AI Workspace" />
+<meta property="og:description" content="Run any AI model on your own machine. Local models, web search, document chat, notes and memory. No cloud, no tracking, no big tech." />
+<meta property="og:image" content="https://ai.tyfsadik.org/og-image.svg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="Chakor – your AI, on your hardware" />
+<meta property="og:locale" content="en_US" />
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<!-- Twitter / X Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@tyfsadik" />
+<meta name="twitter:creator" content="@tyfsadik" />
+<meta name="twitter:title" content="Chakor — Free Open Source AI Workspace" />
+<meta name="twitter:description" content="Run any AI model on your own machine. No cloud, no tracking, no big tech." />
+<meta name="twitter:image" content="https://ai.tyfsadik.org/og-image.svg" />
+<meta name="twitter:image:alt" content="Chakor – your AI, on your hardware" />
+
+<!-- Favicon -->
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<link rel="icon" href="/favicon.svg" sizes="any" />
+<link rel="apple-touch-icon" href="/favicon.svg" />
+
+<!-- Structured Data (JSON-LD) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://ai.tyfsadik.org/#website",
+      "name": "Chakor",
+      "alternateName": ["Chakor AI", "Chakor App"],
+      "url": "https://ai.tyfsadik.org/",
+      "description": "Chakor is a free, open source AI workspace you self-host. Chat with local models or cloud APIs with full privacy.",
+      "inLanguage": "en-US",
+      "potentialAction": {
+        "@type": "ViewAction",
+        "target": "https://github.com/TYFSADIK/chakor"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://ai.tyfsadik.org/#app",
+      "name": "Chakor",
+      "alternateName": "Chakor AI Workspace",
+      "url": "https://ai.tyfsadik.org/",
+      "description": "Open source AI workspace. Run local models (Ollama, llama.cpp, LM Studio) or connect your cloud API keys. Web search, document chat, model comparison, notes, and memory. Fully self-hosted, no tracking.",
+      "applicationCategory": "AIApplication",
+      "applicationSubCategory": "ChatApplication",
+      "operatingSystem": "Linux, macOS, Windows, Android",
+      "softwareVersion": "latest",
+      "releaseNotes": "https://github.com/TYFSADIK/chakor/blob/main/CHANGELOG.md",
+      "downloadUrl": "https://github.com/TYFSADIK/chakor",
+      "installUrl": "https://github.com/TYFSADIK/chakor#quick-start",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "category": "free"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "1"
+      },
+      "creator": {
+        "@type": "Person",
+        "name": "tyfsadik",
+        "url": "https://github.com/TYFSADIK"
+      },
+      "license": "https://github.com/TYFSADIK/chakor/blob/main/LICENSE",
+      "isAccessibleForFree": true,
+      "keywords": "chakor, AI, open source, self-hosted, local AI, Ollama, llama.cpp, private AI",
+      "featureList": [
+        "Local model support (Ollama, llama.cpp, LM Studio)",
+        "Cloud model support (OpenAI, Anthropic, Google, OpenRouter)",
+        "Built-in web search with SearXNG, Brave, DuckDuckGo fallback",
+        "Document chat (PDF, Markdown, text)",
+        "Side-by-side model comparison with leaderboard",
+        "Memory and notes system",
+        "Hardware-aware model fitting",
+        "In-app Hugging Face model downloader",
+        "Multi-user with admin panel",
+        "No telemetry or data collection",
+        "PWA installable on mobile and desktop",
+        "Theme editor"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://ai.tyfsadik.org/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Chakor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Chakor is a free, open source AI workspace you run on your own hardware. It supports local AI models through Ollama, llama.cpp, and LM Studio, as well as cloud models via your own API keys. Everything stays on your machine — no tracking, no cloud dependency."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Chakor free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Chakor is completely free and open source (MIT license). You run it on your own server or machine at no cost. Cloud model API costs (OpenAI, Anthropic, etc.) depend on your usage and the provider's pricing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a GPU to run Chakor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Chakor runs on CPU too, just slower for local models. Or you can use cloud API keys (OpenAI, Anthropic, Google) and run nothing locally at all. Chakor tells you which models fit your hardware before you load them."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is Chakor different from Open WebUI or LM Studio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Chakor combines the best of both: it's open source (unlike LM Studio), works as a server you can access from any device (unlike LM Studio's desktop-only mode), and is lighter and simpler than Open WebUI. Chakor uniquely tags every model FITS, TIGHT, or TOO BIG based on your actual RAM and GPU, and lets you download GGUF models from Hugging Face inside the app."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can Chakor run on Android?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Install Termux on Android and run the same bash install.sh command. Your phone becomes the server. You can also access a Chakor server running elsewhere from any phone browser and install it as a PWA app."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Chakor send any data to the cloud?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Chakor has no telemetry. All conversations are stored in a local SQLite database on your machine. Data only leaves your machine when you explicitly use web search or choose a cloud model — and only to the provider you selected."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
 <style>
 /* ============================================================
-   Chakor landing page
-   Tokyo Night palette. Display: Sora. Body: IBM Plex Sans.
-   Mono: JetBrains Mono.
+   Chakor – landing page
+   Tokyo Night palette · Sora (display) · IBM Plex Sans (body)
+   JetBrains Mono (code)
    ============================================================ */
-
-:root{
-  /* surfaces */
+:root {
   --bg:        #16161e;
   --surface:   #1a1b26;
   --surface-2: #1f2335;
   --surface-3: #24283b;
   --border:    #292e42;
-  --border-bright: #3b4261;
+  --border-b:  #3b4261;
 
-  /* text */
   --text:     #c0caf5;
   --text-dim: #a9b1d6;
   --muted:    #565f89;
 
-  /* syntax-token accents */
   --blue:   #7aa2f7;
   --cyan:   #7dcfff;
   --purple: #bb9af7;
@@ -47,1223 +199,1771 @@
   --red:    #f7768e;
   --teal:   #73daca;
 
-  --ring: rgba(122,162,247,.55);
+  --ring: rgba(122,162,247,.5);
+  --maxw: 1160px;
+  --r: 14px;
+  --r-lg: 20px;
 
-  --maxw: 1140px;
-  --radius: 14px;
-  --radius-lg: 20px;
-
-  --ff-display: "Sora", system-ui, sans-serif;
-  --ff-body: "IBM Plex Sans", system-ui, sans-serif;
-  --ff-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --ff-d: "Sora", system-ui, sans-serif;
+  --ff-b: "IBM Plex Sans", system-ui, sans-serif;
+  --ff-m: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
 }
 
-*{ box-sizing:border-box; }
-html{ scroll-behavior:smooth; }
-@media (prefers-reduced-motion: reduce){ html{ scroll-behavior:auto; } }
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 
-body{
-  margin:0;
-  background:var(--bg);
-  color:var(--text);
-  font-family:var(--ff-body);
-  font-size:16px;
-  line-height:1.65;
-  -webkit-font-smoothing:antialiased;
-  text-rendering:optimizeLegibility;
-  overflow-x:hidden;
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--ff-b);
+  font-size: 16px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
 }
 
-/* atmospheric background: faint grid + soft glows */
-body::before{
-  content:"";
-  position:fixed; inset:0;
+/* Atmospheric grid + glows */
+body::before {
+  content: "";
+  position: fixed; inset: 0; z-index: 0;
   background-image:
     linear-gradient(var(--border) 1px, transparent 1px),
     linear-gradient(90deg, var(--border) 1px, transparent 1px);
-  background-size:64px 64px;
-  opacity:.20;
-  mask-image:radial-gradient(120% 80% at 50% -10%, #000 30%, transparent 75%);
-  -webkit-mask-image:radial-gradient(120% 80% at 50% -10%, #000 30%, transparent 75%);
-  pointer-events:none;
-  z-index:0;
+  background-size: 64px 64px;
+  opacity: .18;
+  mask-image: radial-gradient(110% 70% at 50% -5%, #000 30%, transparent 75%);
+  -webkit-mask-image: radial-gradient(110% 70% at 50% -5%, #000 30%, transparent 75%);
+  pointer-events: none;
 }
-body::after{
-  content:"";
-  position:fixed; inset:0;
+body::after {
+  content: "";
+  position: fixed; inset: 0; z-index: 0;
   background:
-    radial-gradient(40rem 30rem at 78% -8%, rgba(122,162,247,.16), transparent 60%),
-    radial-gradient(36rem 28rem at 8% 4%, rgba(187,154,247,.12), transparent 60%);
-  pointer-events:none;
-  z-index:0;
+    radial-gradient(45rem 32rem at 80% -10%, rgba(122,162,247,.15), transparent 60%),
+    radial-gradient(38rem 28rem at 5% 5%, rgba(187,154,247,.11), transparent 60%),
+    radial-gradient(30rem 24rem at 55% 95%, rgba(115,218,202,.07), transparent 60%);
+  pointer-events: none;
 }
 
-a{ color:var(--blue); text-decoration:none; }
-img{ max-width:100%; display:block; }
+a { color: var(--blue); text-decoration: none; }
+a:hover { text-decoration: underline; text-decoration-color: rgba(122,162,247,.4); }
+img { max-width: 100%; display: block; }
 
-:focus-visible{
-  outline:2px solid var(--ring);
-  outline-offset:3px;
-  border-radius:6px;
-}
+:focus-visible { outline: 2px solid var(--ring); outline-offset: 3px; border-radius: 6px; }
 
-.wrap{
-  width:100%;
-  max-width:var(--maxw);
-  margin-inline:auto;
-  padding-inline:24px;
-  position:relative;
-  z-index:1;
+.wrap {
+  width: 100%;
+  max-width: var(--maxw);
+  margin-inline: auto;
+  padding-inline: 24px;
+  position: relative;
+  z-index: 1;
 }
 
-.eyebrow{
-  font-family:var(--ff-mono);
-  font-size:.78rem;
-  letter-spacing:.08em;
-  color:var(--muted);
-  text-transform:lowercase;
-  display:inline-flex;
-  align-items:center;
-  gap:.55rem;
+/* ---- typography helpers ---- */
+.eyebrow {
+  font-family: var(--ff-m);
+  font-size: .75rem;
+  letter-spacing: .1em;
+  color: var(--muted);
+  text-transform: lowercase;
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
 }
-.eyebrow b{ color:var(--cyan); font-weight:500; }
-.eyebrow::before{ content:"//"; color:var(--border-bright); }
+.eyebrow::before { content: "//"; color: var(--border-b); }
+.eyebrow b { color: var(--cyan); font-weight: 500; }
 
-.sec-title{
-  font-family:var(--ff-display);
-  font-weight:600;
-  font-size:clamp(1.7rem, 4vw, 2.7rem);
-  line-height:1.08;
-  letter-spacing:-.02em;
-  margin:.6rem 0 0;
-  color:var(--text);
+.sec-title {
+  font-family: var(--ff-d);
+  font-weight: 700;
+  font-size: clamp(1.8rem, 4.2vw, 2.8rem);
+  line-height: 1.06;
+  letter-spacing: -.03em;
+  margin: .6rem 0 0;
+  color: var(--text);
 }
-.sec-lede{
-  color:var(--text-dim);
-  max-width:48ch;
-  margin:.85rem 0 0;
-  font-size:1.05rem;
+.sec-lede {
+  color: var(--text-dim);
+  max-width: 50ch;
+  margin: .9rem 0 0;
+  font-size: 1.05rem;
 }
 
-/* ---------- buttons ---------- */
-.btn{
-  display:inline-flex; align-items:center; gap:.55rem;
-  font-family:var(--ff-mono);
-  font-size:.92rem; font-weight:500;
-  padding:.78rem 1.25rem;
-  border-radius:10px;
-  border:1px solid transparent;
-  cursor:pointer;
-  transition:transform .15s ease, background .2s ease, border-color .2s ease, color .2s ease;
-  white-space:nowrap;
+/* ---- buttons ---- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  font-family: var(--ff-m);
+  font-size: .92rem;
+  font-weight: 500;
+  padding: .78rem 1.3rem;
+  border-radius: 11px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all .18s ease;
+  white-space: nowrap;
+  text-decoration: none;
 }
-.btn:active{ transform:translateY(1px); }
-.btn-primary{
-  background:var(--blue); color:#0b0d18; border-color:var(--blue);
-  box-shadow:0 8px 30px -12px rgba(122,162,247,.7);
-}
-.btn-primary:hover{ background:#8fb3ff; box-shadow:0 12px 36px -10px rgba(122,162,247,.8); }
-.btn-ghost{
-  background:transparent; color:var(--text);
-  border-color:var(--border-bright);
-}
-.btn-ghost:hover{ border-color:var(--blue); color:var(--blue); background:rgba(122,162,247,.06); }
-.btn svg{ width:1.05em; height:1.05em; }
+.btn:hover { text-decoration: none; transform: translateY(-2px); }
+.btn:active { transform: translateY(0); }
+.btn svg { width: 1.05em; height: 1.05em; flex-shrink: 0; }
 
-/* =========================================================
-   NAV
-   ========================================================= */
-.nav{
-  position:sticky; top:0; z-index:50;
-  transition:background .3s ease, border-color .3s ease, backdrop-filter .3s ease;
-  border-bottom:1px solid transparent;
+.btn-primary {
+  background: var(--blue);
+  color: #0b0d18;
+  border-color: var(--blue);
+  box-shadow: 0 8px 28px -10px rgba(122,162,247,.7);
 }
-.nav.scrolled{
-  background:rgba(22,22,30,.78);
-  backdrop-filter:blur(14px) saturate(140%);
-  -webkit-backdrop-filter:blur(14px) saturate(140%);
-  border-bottom-color:var(--border);
-}
-.nav-inner{
-  display:flex; align-items:center; justify-content:space-between;
-  height:64px;
-}
-.brand{
-  font-family:var(--ff-mono);
-  font-weight:700;
-  font-size:1.02rem;
-  color:var(--text);
-  display:inline-flex; align-items:baseline; gap:.1rem;
-  letter-spacing:-.01em;
-}
-.brand .tilde{ color:var(--muted); }
-.brand .name{ color:var(--text); }
-.brand .cursor{
-  display:inline-block; width:.6ch; height:1.05em;
-  background:var(--cyan); margin-left:.25ch;
-  transform:translateY(.12em);
-  animation:blink 1.1s steps(1) infinite;
-}
-@keyframes blink{ 50%{ opacity:0; } }
+.btn-primary:hover { background: #8fb3ff; box-shadow: 0 12px 36px -8px rgba(122,162,247,.85); }
 
-.nav-links{
-  display:flex; align-items:center; gap:.35rem;
-  list-style:none; margin:0; padding:0;
+.btn-ghost {
+  background: transparent;
+  color: var(--text);
+  border-color: var(--border-b);
 }
-.nav-links a{
-  font-family:var(--ff-mono);
-  font-size:.85rem;
-  color:var(--text-dim);
-  padding:.5rem .7rem;
-  border-radius:8px;
-  transition:color .2s ease, background .2s ease;
-}
-.nav-links a:hover{ color:var(--text); background:rgba(122,162,247,.08); }
-.nav-gh{
-  display:inline-flex; align-items:center; gap:.4rem;
-  color:var(--text)!important;
-  border:1px solid var(--border-bright);
-}
-.nav-gh:hover{ border-color:var(--blue); color:var(--blue)!important; }
-.nav-gh svg{ width:1em; height:1em; }
+.btn-ghost:hover { border-color: var(--blue); color: var(--blue); background: rgba(122,162,247,.07); }
 
-.nav-toggle{
-  display:none;
-  background:transparent; border:1px solid var(--border-bright);
-  color:var(--text); border-radius:8px;
-  width:42px; height:42px; cursor:pointer;
-  align-items:center; justify-content:center;
+/* ========================================
+   NAVIGATION
+   ======================================== */
+.nav {
+  position: sticky; top: 0; z-index: 100;
+  transition: background .3s, border-color .3s, backdrop-filter .3s;
+  border-bottom: 1px solid transparent;
 }
-.nav-toggle svg{ width:20px; height:20px; }
+.nav.scrolled {
+  background: rgba(22,22,30,.82);
+  backdrop-filter: blur(16px) saturate(150%);
+  -webkit-backdrop-filter: blur(16px) saturate(150%);
+  border-bottom-color: var(--border);
+}
+.nav-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 66px;
+  gap: 1rem;
+}
 
-@media (max-width:860px){
-  .nav-links{
-    position:absolute; top:64px; left:0; right:0;
-    flex-direction:column; align-items:stretch; gap:.2rem;
-    background:rgba(22,22,30,.97);
-    backdrop-filter:blur(14px);
-    border-bottom:1px solid var(--border);
-    padding:.6rem 24px 1rem;
-    transform:translateY(-12px);
-    opacity:0; pointer-events:none;
-    transition:opacity .22s ease, transform .22s ease;
+/* Logo */
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: .55rem;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+.brand:hover { text-decoration: none; }
+.brand-icon {
+  width: 34px;
+  height: 34px;
+  flex-shrink: 0;
+}
+.brand-name {
+  font-family: var(--ff-m);
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--text);
+  letter-spacing: -.01em;
+  display: flex;
+  align-items: baseline;
+  gap: 0;
+}
+.brand-cursor {
+  display: inline-block;
+  width: .55ch;
+  height: 1em;
+  background: var(--cyan);
+  margin-left: .2ch;
+  transform: translateY(.12em);
+  animation: blink 1.1s steps(1) infinite;
+  border-radius: 1px;
+}
+@keyframes blink { 50% { opacity: 0; } }
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: .25rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-links li a {
+  font-family: var(--ff-m);
+  font-size: .83rem;
+  color: var(--text-dim);
+  padding: .5rem .75rem;
+  border-radius: 8px;
+  transition: color .2s, background .2s;
+  text-decoration: none;
+}
+.nav-links li a:hover { color: var(--text); background: rgba(122,162,247,.08); }
+
+.nav-gh {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  font-family: var(--ff-m);
+  font-size: .83rem;
+  color: var(--text) !important;
+  border: 1px solid var(--border-b) !important;
+  padding: .48rem .85rem !important;
+  border-radius: 8px !important;
+  background: transparent;
+  transition: all .2s;
+  text-decoration: none !important;
+}
+.nav-gh:hover { border-color: var(--blue) !important; color: var(--blue) !important; background: rgba(122,162,247,.06) !important; }
+.nav-gh svg { width: 1em; height: 1em; }
+
+.nav-toggle {
+  display: none;
+  background: transparent;
+  border: 1px solid var(--border-b);
+  color: var(--text);
+  border-radius: 8px;
+  width: 42px; height: 42px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.nav-toggle svg { width: 20px; height: 20px; }
+
+@media (max-width: 860px) {
+  .nav-links {
+    position: absolute;
+    top: 66px; left: 0; right: 0;
+    flex-direction: column;
+    align-items: stretch;
+    gap: .15rem;
+    background: rgba(22,22,30,.97);
+    backdrop-filter: blur(16px);
+    border-bottom: 1px solid var(--border);
+    padding: .6rem 20px 1rem;
+    transform: translateY(-8px);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .2s, transform .2s;
   }
-  .nav-links.open{ opacity:1; transform:translateY(0); pointer-events:auto; }
-  .nav-links a{ padding:.75rem .6rem; font-size:.95rem; }
-  .nav-gh{ justify-content:center; margin-top:.4rem; }
-  .nav-toggle{ display:inline-flex; }
+  .nav-links.open { opacity: 1; transform: translateY(0); pointer-events: auto; }
+  .nav-links li a { padding: .7rem .65rem; font-size: .93rem; display: block; }
+  .nav-gh { justify-content: center; margin-top: .35rem; }
+  .nav-toggle { display: inline-flex; }
 }
 
-/* =========================================================
+/* ========================================
    HERO
-   ========================================================= */
-.hero{ padding:clamp(3.5rem, 9vw, 7rem) 0 2rem; text-align:center; }
-.hero .eyebrow{ justify-content:center; }
-.hero h1{
-  font-family:var(--ff-display);
-  font-weight:700;
-  font-size:clamp(3.4rem, 11vw, 7.2rem);
-  line-height:.95;
-  letter-spacing:-.045em;
-  margin:1rem 0 0;
-  background:linear-gradient(180deg, #eef1ff 0%, var(--text) 55%, #8a93c2 120%);
-  -webkit-background-clip:text; background-clip:text;
-  color:transparent;
+   ======================================== */
+.hero {
+  padding: clamp(4rem, 10vw, 7.5rem) 0 clamp(2rem, 5vw, 3.5rem);
+  text-align: center;
 }
-.hero .tagline{
-  font-family:var(--ff-display);
-  font-weight:600;
-  font-size:clamp(1.35rem, 3.6vw, 2.4rem);
-  letter-spacing:-.02em;
-  margin:.7rem 0 0;
-  color:var(--text);
-}
-.hero .tagline em{ font-style:normal; color:var(--cyan); }
-.hero p.lede{
-  max-width:60ch; margin:1.4rem auto 0;
-  color:var(--text-dim); font-size:1.1rem;
-}
-.hero .aside{
-  font-family:var(--ff-mono);
-  font-size:.82rem; color:var(--muted);
-  margin:.9rem auto 0; max-width:54ch;
-}
-.hero-cta{
-  display:flex; gap:.8rem; justify-content:center; flex-wrap:wrap;
-  margin-top:2rem;
+.hero .eyebrow { justify-content: center; margin-bottom: .5rem; }
+
+.hero h1 {
+  font-family: var(--ff-d);
+  font-weight: 700;
+  font-size: clamp(3.8rem, 13vw, 8rem);
+  line-height: .92;
+  letter-spacing: -.05em;
+  margin: .8rem 0 0;
+  background: linear-gradient(180deg, #eef1ff 0%, var(--text) 50%, #8093c2 115%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  will-change: opacity;
 }
 
-/* hero pills under cta */
-.hero-pills{
-  display:flex; gap:.5rem; flex-wrap:wrap; justify-content:center;
-  margin-top:1.6rem;
+.hero-tagline {
+  font-family: var(--ff-d);
+  font-weight: 600;
+  font-size: clamp(1.3rem, 3.5vw, 2.2rem);
+  letter-spacing: -.025em;
+  margin: .8rem 0 0;
+  color: var(--text-dim);
 }
-.pill{
-  font-family:var(--ff-mono); font-size:.74rem;
-  color:var(--text-dim);
-  border:1px solid var(--border);
-  background:rgba(31,35,53,.5);
-  padding:.32rem .7rem; border-radius:999px;
-}
-.pill b{ font-weight:500; }
-.pill.b-blue b{ color:var(--blue); } .pill.b-cyan b{ color:var(--cyan); }
-.pill.b-green b{ color:var(--green); } .pill.b-purple b{ color:var(--purple); }
+.hero-tagline em { font-style: normal; color: var(--cyan); }
 
-/* =========================================================
-   APP MOCKUP (signature)
-   ========================================================= */
-.mock-stage{ padding:2.5rem 0 1rem; }
-.window{
-  max-width:980px; margin-inline:auto;
-  background:linear-gradient(180deg, var(--surface-2), var(--surface));
-  border:1px solid var(--border-bright);
-  border-radius:var(--radius-lg);
+.hero-lede {
+  max-width: 58ch;
+  margin: 1.4rem auto 0;
+  color: var(--text-dim);
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+.hero-aside {
+  font-family: var(--ff-m);
+  font-size: .8rem;
+  color: var(--muted);
+  margin: .9rem auto 0;
+  max-width: 52ch;
+}
+
+.hero-cta {
+  display: flex;
+  gap: .75rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2.2rem;
+}
+
+.hero-pills {
+  display: flex;
+  gap: .45rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1.8rem;
+}
+.pill {
+  font-family: var(--ff-m);
+  font-size: .72rem;
+  color: var(--text-dim);
+  border: 1px solid var(--border);
+  background: rgba(31,35,53,.5);
+  padding: .3rem .7rem;
+  border-radius: 999px;
+}
+.pill b { font-weight: 500; }
+.pill.g b { color: var(--green); }
+.pill.b b { color: var(--blue); }
+.pill.c b { color: var(--cyan); }
+.pill.p b { color: var(--purple); }
+.pill.y b { color: var(--yellow); }
+
+/* ========================================
+   APP WINDOW MOCKUP
+   ======================================== */
+.mock-stage {
+  padding: clamp(1.5rem, 4vw, 3rem) 0 0;
+}
+.window {
+  max-width: 1020px;
+  margin-inline: auto;
+  background: linear-gradient(175deg, var(--surface-2), var(--surface));
+  border: 1px solid var(--border-b);
+  border-radius: var(--r-lg);
   box-shadow:
-    0 1px 0 rgba(255,255,255,.04) inset,
-    0 40px 80px -40px rgba(0,0,0,.8),
-    0 0 0 1px rgba(122,162,247,.04);
-  overflow:hidden;
+    0 2px 0 rgba(255,255,255,.04) inset,
+    0 40px 90px -40px rgba(0,0,0,.85),
+    0 0 0 1px rgba(122,162,247,.05);
+  overflow: hidden;
+  transform: perspective(1600px) rotateX(3deg);
+  transform-origin: top center;
+  transition: transform .4s ease;
 }
-.win-bar{
-  display:flex; align-items:center; gap:.5rem;
-  padding:.7rem .95rem;
-  border-bottom:1px solid var(--border);
-  background:rgba(15,16,26,.4);
-}
-.dot{ width:11px; height:11px; border-radius:50%; }
-.dot.r{ background:#f7768e; } .dot.y{ background:#e0af68; } .dot.g{ background:#9ece6a; }
-.win-title{
-  font-family:var(--ff-mono); font-size:.78rem; color:var(--muted);
-  margin-inline:auto; transform:translateX(-22px);
-}
-.win-title b{ color:var(--text-dim); font-weight:500; }
+.window:hover { transform: perspective(1600px) rotateX(0deg); }
 
-.win-body{ display:grid; grid-template-columns:188px 1fr; min-height:360px; }
+.win-bar {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  padding: .75rem 1rem;
+  border-bottom: 1px solid var(--border);
+  background: rgba(12,13,22,.45);
+}
+.dot { width: 12px; height: 12px; border-radius: 50%; }
+.dot.r { background: #f7768e; }
+.dot.y { background: #e0af68; }
+.dot.g { background: #9ece6a; }
+.win-title {
+  font-family: var(--ff-m);
+  font-size: .77rem;
+  color: var(--muted);
+  margin-inline: auto;
+  transform: translateX(-22px);
+}
+.win-title b { color: var(--text-dim); font-weight: 500; }
+
+.win-body {
+  display: grid;
+  grid-template-columns: 196px 1fr;
+  min-height: 370px;
+}
 
 /* sidebar */
-.side{
-  border-right:1px solid var(--border);
-  padding:.85rem .7rem;
-  background:rgba(15,16,26,.25);
-  display:flex; flex-direction:column; gap:.5rem;
+.side {
+  border-right: 1px solid var(--border);
+  padding: .9rem .75rem;
+  background: rgba(12,13,22,.2);
+  display: flex;
+  flex-direction: column;
+  gap: .45rem;
 }
-.side-new{
-  font-family:var(--ff-mono); font-size:.74rem; color:var(--text-dim);
-  border:1px dashed var(--border-bright); border-radius:9px;
-  padding:.5rem .6rem; display:flex; align-items:center; gap:.45rem;
+.side-new {
+  font-family: var(--ff-m);
+  font-size: .73rem;
+  color: var(--text-dim);
+  border: 1px dashed var(--border-b);
+  border-radius: 9px;
+  padding: .5rem .6rem;
+  display: flex;
+  align-items: center;
+  gap: .45rem;
 }
-.side-new span{ color:var(--blue); }
-.side-group{ font-family:var(--ff-mono); font-size:.66rem; color:var(--muted); letter-spacing:.06em; margin:.4rem .3rem .1rem; }
-.side-row{
-  font-size:.78rem; color:var(--text-dim);
-  padding:.42rem .55rem; border-radius:8px;
-  white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
-  display:flex; align-items:center; gap:.5rem;
+.side-new .ic { color: var(--blue); }
+.side-grp {
+  font-family: var(--ff-m);
+  font-size: .64rem;
+  color: var(--muted);
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  margin: .35rem .35rem .05rem;
 }
-.side-row .ic{ color:var(--muted); }
-.side-row.active{ background:rgba(122,162,247,.12); color:var(--text); }
-.side-row.active .ic{ color:var(--cyan); }
+.side-row {
+  font-size: .77rem;
+  color: var(--text-dim);
+  padding: .4rem .55rem;
+  border-radius: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+  align-items: center;
+  gap: .45rem;
+}
+.side-row .ic { color: var(--muted); font-size: .85em; }
+.side-row.active { background: rgba(122,162,247,.12); color: var(--text); }
+.side-row.active .ic { color: var(--cyan); }
+.side-special {
+  font-family: var(--ff-m);
+  font-size: .7rem;
+  color: var(--muted);
+  padding: .35rem .55rem;
+  display: flex;
+  align-items: center;
+  gap: .45rem;
+}
+.side-special:hover { color: var(--text-dim); cursor: pointer; }
 
-/* main panel: models */
-.panel{ padding:1.1rem 1.2rem 1.3rem; }
-.panel-head{ display:flex; align-items:center; justify-content:space-between; gap:1rem; flex-wrap:wrap; }
-.panel-head h3{ font-family:var(--ff-display); font-weight:600; font-size:1.05rem; margin:0; }
-.engines{ display:flex; gap:.4rem; flex-wrap:wrap; }
-.eng{
-  font-family:var(--ff-mono); font-size:.7rem; color:var(--text-dim);
-  border:1px solid var(--border); border-radius:999px;
-  padding:.22rem .55rem; display:inline-flex; align-items:center; gap:.4rem;
-  background:rgba(36,40,59,.5);
+/* main panel */
+.panel { padding: 1.1rem 1.25rem 1.4rem; }
+.panel-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
-.eng .led{ width:7px; height:7px; border-radius:50%; background:var(--muted); }
-.eng.on{ border-color:rgba(158,206,106,.4); color:var(--text); }
-.eng.on .led{ background:var(--green); box-shadow:0 0 8px var(--green); }
-
-.hw{
-  margin:.85rem 0 1rem;
-  font-family:var(--ff-mono); font-size:.76rem; color:var(--text-dim);
-  background:rgba(36,40,59,.45);
-  border:1px solid var(--border);
-  border-radius:10px;
-  padding:.6rem .75rem;
-  display:flex; gap:.4rem; align-items:center; flex-wrap:wrap;
+.panel-head h3 {
+  font-family: var(--ff-d);
+  font-weight: 600;
+  font-size: 1.05rem;
+  margin: 0;
 }
-.hw .k{ color:var(--muted); }
-.hw .v{ color:var(--cyan); }
-.hw .sep{ color:var(--border-bright); }
-
-.models{ display:flex; flex-direction:column; gap:.45rem; }
-.model{
-  display:flex; align-items:center; justify-content:space-between; gap:.8rem;
-  border:1px solid var(--border);
-  background:var(--surface-3);
-  border-radius:11px;
-  padding:.6rem .8rem;
-  transition:border-color .2s ease, transform .2s ease;
+.engines { display: flex; gap: .4rem; flex-wrap: wrap; }
+.eng {
+  font-family: var(--ff-m);
+  font-size: .69rem;
+  color: var(--text-dim);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: .22rem .55rem;
+  display: inline-flex;
+  align-items: center;
+  gap: .38rem;
+  background: rgba(36,40,59,.5);
 }
-.model:hover{ border-color:var(--border-bright); transform:translateX(2px); }
-.model.sel{ border-color:rgba(122,162,247,.55); box-shadow:0 0 0 1px rgba(122,162,247,.25) inset; }
-.m-name{ font-weight:500; font-size:.9rem; color:var(--text); }
-.m-meta{ font-family:var(--ff-mono); font-size:.72rem; color:var(--muted); margin-top:.1rem; }
-.m-tags{ display:flex; gap:.4rem; align-items:center; flex-shrink:0; }
-
-.chip{
-  font-family:var(--ff-mono); font-size:.66rem; font-weight:500;
-  letter-spacing:.04em; text-transform:uppercase;
-  padding:.2rem .5rem; border-radius:6px; border:1px solid;
+.eng .led { width: 7px; height: 7px; border-radius: 50%; background: var(--muted); }
+.eng.on { border-color: rgba(158,206,106,.45); color: var(--text); }
+.eng.on .led {
+  background: var(--green);
+  box-shadow: 0 0 6px var(--green);
+  animation: pulse-led 2s ease infinite;
 }
-.chip-fits{ color:var(--green); border-color:rgba(158,206,106,.4); background:rgba(158,206,106,.1); }
-.chip-tight{ color:var(--yellow); border-color:rgba(224,175,104,.4); background:rgba(224,175,104,.1); }
-.chip-big{ color:var(--red); border-color:rgba(247,118,142,.4); background:rgba(247,118,142,.1); }
-.chip-rec{ color:var(--blue); border-color:rgba(122,162,247,.45); background:rgba(122,162,247,.08); }
-
-@media (max-width:680px){
-  .win-body{ grid-template-columns:1fr; }
-  .side{ display:none; }
-  .win-title{ transform:none; }
+@keyframes pulse-led {
+  0%, 100% { opacity: 1; }
+  50% { opacity: .55; }
 }
 
-/* =========================================================
-   GENERIC SECTION SPACING
-   ========================================================= */
-.section{ padding:clamp(4rem, 9vw, 6.5rem) 0; }
-.section-head{ max-width:62ch; }
+.hw {
+  margin: .9rem 0 1rem;
+  font-family: var(--ff-m);
+  font-size: .74rem;
+  color: var(--text-dim);
+  background: rgba(36,40,59,.4);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: .6rem .8rem;
+  display: flex;
+  gap: .4rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.hw .k { color: var(--muted); }
+.hw .v { color: var(--cyan); }
+.hw .sep { color: var(--border-b); margin-inline: .1rem; }
 
-/* =========================================================
-   BUILT DIFFERENT (3 col)
-   ========================================================= */
-.diff-grid{
-  display:grid; grid-template-columns:repeat(3,1fr); gap:1rem;
-  margin-top:2.4rem;
+.models { display: flex; flex-direction: column; gap: .45rem; }
+.model {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .75rem;
+  border: 1px solid var(--border);
+  background: var(--surface-3);
+  border-radius: 11px;
+  padding: .62rem .85rem;
+  transition: border-color .2s, transform .2s;
+  cursor: pointer;
 }
-.diff-card{
-  border:1px solid var(--border);
-  background:linear-gradient(180deg, var(--surface-2), var(--surface));
-  border-radius:var(--radius);
-  padding:1.4rem 1.3rem 1.5rem;
-  position:relative; overflow:hidden;
-  transition:border-color .25s ease, transform .25s ease;
-}
-.diff-card:hover{ transform:translateY(-4px); }
-.diff-card::after{
-  content:""; position:absolute; inset:0 0 auto 0; height:2px;
-  background:var(--accent); opacity:.7;
-}
-.diff-card .num{
-  font-family:var(--ff-mono); font-size:.74rem; color:var(--accent);
-  letter-spacing:.1em;
-}
-.diff-card h3{
-  font-family:var(--ff-display); font-weight:600; font-size:1.18rem;
-  margin:.7rem 0 .55rem; letter-spacing:-.01em;
-}
-.diff-card p{ color:var(--text-dim); font-size:.95rem; margin:0; }
-.diff-card .demo{
-  margin-top:1.1rem;
-  font-family:var(--ff-mono); font-size:.72rem;
-  border-top:1px dashed var(--border); padding-top:.9rem;
-  display:flex; gap:.4rem; flex-wrap:wrap; align-items:center;
-}
-@media (max-width:840px){ .diff-grid{ grid-template-columns:1fr; } }
+.model:hover { border-color: var(--border-b); transform: translateX(3px); }
+.model.sel { border-color: rgba(122,162,247,.55); box-shadow: 0 0 0 1px rgba(122,162,247,.2) inset; }
+.m-name { font-weight: 500; font-size: .89rem; color: var(--text); }
+.m-meta { font-family: var(--ff-m); font-size: .7rem; color: var(--muted); margin-top: .08rem; }
+.m-tags { display: flex; gap: .38rem; align-items: center; flex-shrink: 0; }
 
-/* =========================================================
+.chip {
+  font-family: var(--ff-m);
+  font-size: .64rem;
+  font-weight: 600;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  padding: .18rem .48rem;
+  border-radius: 6px;
+  border: 1px solid;
+}
+.chip-fits  { color: var(--green);  border-color: rgba(158,206,106,.4); background: rgba(158,206,106,.1); }
+.chip-tight { color: var(--yellow); border-color: rgba(224,175,104,.4); background: rgba(224,175,104,.1); }
+.chip-big   { color: var(--red);    border-color: rgba(247,118,142,.4); background: rgba(247,118,142,.1); }
+.chip-rec   { color: var(--blue);   border-color: rgba(122,162,247,.4); background: rgba(122,162,247,.08); }
+
+@media (max-width: 680px) {
+  .win-body { grid-template-columns: 1fr; }
+  .side { display: none; }
+  .win-title { transform: none; }
+  .window { transform: none !important; border-radius: var(--r); }
+}
+
+/* ========================================
+   GENERIC SECTION
+   ======================================== */
+.section { padding: clamp(4.5rem, 9vw, 7rem) 0; }
+.section-head { max-width: 64ch; }
+
+/* ========================================
+   BUILT DIFFERENT (3 cards)
+   ======================================== */
+.diff-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 2.5rem;
+}
+.diff-card {
+  border: 1px solid var(--border);
+  background: linear-gradient(175deg, var(--surface-2), var(--surface));
+  border-radius: var(--r);
+  padding: 1.5rem 1.35rem 1.6rem;
+  position: relative;
+  overflow: hidden;
+  transition: border-color .25s, transform .25s, box-shadow .25s;
+}
+.diff-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(var(--accent-rgb), .5);
+  box-shadow: 0 16px 40px -16px rgba(0,0,0,.6);
+}
+.diff-card::after {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 2px;
+  background: var(--accent);
+  opacity: .75;
+}
+.diff-card .num {
+  font-family: var(--ff-m);
+  font-size: .72rem;
+  color: var(--accent);
+  letter-spacing: .1em;
+}
+.diff-card h3 {
+  font-family: var(--ff-d);
+  font-weight: 600;
+  font-size: 1.15rem;
+  margin: .65rem 0 .5rem;
+  letter-spacing: -.015em;
+}
+.diff-card p { color: var(--text-dim); font-size: .94rem; margin: 0; }
+.diff-card .demo {
+  margin-top: 1.1rem;
+  font-family: var(--ff-m);
+  font-size: .7rem;
+  border-top: 1px dashed var(--border);
+  padding-top: .9rem;
+  display: flex;
+  gap: .4rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+@media (max-width: 860px) { .diff-grid { grid-template-columns: 1fr; } }
+
+/* ========================================
    FEATURE GRID
-   ========================================================= */
-.feat-grid{
-  display:grid; grid-template-columns:repeat(3,1fr); gap:1rem;
-  margin-top:2.4rem;
+   ======================================== */
+.feat-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 2.5rem;
 }
-.feat{
-  border:1px solid var(--border);
-  background:var(--surface);
-  border-radius:var(--radius);
-  padding:1.15rem 1.2rem 1.25rem;
-  transition:border-color .2s ease, background .2s ease, transform .2s ease;
+.feat {
+  border: 1px solid var(--border);
+  background: var(--surface);
+  border-radius: var(--r);
+  padding: 1.2rem 1.25rem 1.35rem;
+  transition: border-color .2s, background .2s, transform .2s;
 }
-.feat:hover{ border-color:var(--border-bright); transform:translateY(-3px); background:var(--surface-2); }
-.feat .tok{
-  font-family:var(--ff-mono); font-size:.72rem; font-weight:500;
-  color:var(--accent); letter-spacing:.03em;
+.feat:hover {
+  border-color: var(--border-b);
+  transform: translateY(-4px);
+  background: var(--surface-2);
 }
-.feat .tok::before{ content:"#"; opacity:.6; }
-.feat h4{ font-family:var(--ff-display); font-weight:600; font-size:1.02rem; margin:.45rem 0 .4rem; }
-.feat p{ color:var(--text-dim); font-size:.9rem; margin:0; line-height:1.55; }
-@media (max-width:840px){ .feat-grid{ grid-template-columns:repeat(2,1fr); } }
-@media (max-width:560px){ .feat-grid{ grid-template-columns:1fr; } }
+.feat .icon-wrap {
+  width: 40px; height: 40px;
+  border-radius: 10px;
+  background: rgba(36,40,59,.8);
+  border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: .9rem;
+  font-size: 1.2rem;
+}
+.feat .tok {
+  font-family: var(--ff-m);
+  font-size: .7rem;
+  font-weight: 500;
+  color: var(--accent);
+  letter-spacing: .04em;
+}
+.feat .tok::before { content: "#"; opacity: .55; }
+.feat h4 {
+  font-family: var(--ff-d);
+  font-weight: 600;
+  font-size: .99rem;
+  margin: .4rem 0 .38rem;
+  letter-spacing: -.01em;
+}
+.feat p { color: var(--text-dim); font-size: .88rem; margin: 0; line-height: 1.58; }
+@media (max-width: 860px) { .feat-grid { grid-template-columns: repeat(2,1fr); } }
+@media (max-width: 540px) { .feat-grid { grid-template-columns: 1fr; } }
 
-/* =========================================================
-   COMPARE TABLE
-   ========================================================= */
-.cmp-wrap{ margin-top:2.4rem; border:1px solid var(--border); border-radius:var(--radius-lg); overflow:hidden; }
-.cmp-scroll{ overflow-x:auto; }
-table.cmp{
-  width:100%; border-collapse:collapse; min-width:640px;
-  font-size:.92rem;
+/* ========================================
+   COMPARISON TABLE
+   ======================================== */
+.cmp-wrap {
+  margin-top: 2.5rem;
+  border: 1px solid var(--border);
+  border-radius: var(--r-lg);
+  overflow: hidden;
 }
-table.cmp th, table.cmp td{ padding:.85rem 1rem; text-align:left; border-bottom:1px solid var(--border); }
-table.cmp thead th{
-  font-family:var(--ff-mono); font-size:.78rem; font-weight:500;
-  color:var(--text-dim); background:rgba(31,35,53,.6);
-  position:sticky; top:0;
+.cmp-scroll { overflow-x: auto; }
+table.cmp {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 620px;
+  font-size: .9rem;
 }
-table.cmp thead th.col-chakor{ color:var(--blue); }
-table.cmp tbody td{ color:var(--text-dim); }
-table.cmp tbody td.feat-name{ color:var(--text); font-weight:500; width:42%; }
-table.cmp td.col-chakor{
-  background:rgba(122,162,247,.06);
-  border-left:1px solid rgba(122,162,247,.2);
-  border-right:1px solid rgba(122,162,247,.2);
-  color:var(--text);
+table.cmp thead th {
+  padding: .85rem 1.1rem;
+  text-align: left;
+  font-family: var(--ff-m);
+  font-size: .75rem;
+  font-weight: 600;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  background: var(--surface-2);
+  border-bottom: 1px solid var(--border);
 }
-table.cmp tbody tr:last-child td{ border-bottom:none; }
-.yes{ color:var(--green); font-weight:700; }
-.no{ color:var(--muted); }
-.meh{ font-family:var(--ff-mono); font-size:.78rem; color:var(--yellow); }
-.note{ font-family:var(--ff-mono); font-size:.76rem; color:var(--muted); }
+table.cmp thead th:first-child { color: var(--text-dim); }
+table.cmp thead th.ours {
+  color: var(--blue);
+  background: rgba(122,162,247,.08);
+}
+table.cmp tbody tr:not(:last-child) td { border-bottom: 1px solid var(--border); }
+table.cmp tbody tr:hover td { background: rgba(36,40,59,.4); }
+table.cmp td {
+  padding: .72rem 1.1rem;
+  color: var(--text-dim);
+  vertical-align: middle;
+}
+table.cmp td:first-child { color: var(--text); }
+table.cmp td.ours {
+  background: rgba(122,162,247,.05);
+  color: var(--text);
+  font-weight: 500;
+}
+table.cmp td.yes { color: var(--green); }
+table.cmp td.no  { color: var(--muted); }
+table.cmp td.par { color: var(--yellow); }
 
-/* =========================================================
-   WHY + TERMINAL
-   ========================================================= */
-.why-grid{
-  display:grid; grid-template-columns:1.05fr .95fr; gap:2.4rem; align-items:center;
-  margin-top:2.4rem;
+/* ========================================
+   INSTALL SECTION
+   ======================================== */
+.install-tabs {
+  display: flex;
+  gap: .4rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
 }
-.why-copy p{ color:var(--text-dim); font-size:1.05rem; }
-.why-copy p.kicker{
-  font-family:var(--ff-display); font-weight:600; color:var(--text);
-  font-size:1.25rem; line-height:1.35; margin-bottom:1.1rem;
+.tab-btn {
+  font-family: var(--ff-m);
+  font-size: .8rem;
+  padding: .48rem .9rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-dim);
+  cursor: pointer;
+  transition: all .18s;
 }
-.why-copy strong{ color:var(--text); font-weight:600; }
+.tab-btn:hover { border-color: var(--border-b); color: var(--text); }
+.tab-btn.active { border-color: rgba(122,162,247,.5); background: rgba(122,162,247,.08); color: var(--blue); }
 
-.terminal{
-  background:#0e0f17;
-  border:1px solid var(--border-bright);
-  border-radius:var(--radius);
-  box-shadow:0 30px 60px -40px rgba(0,0,0,.9);
-  overflow:hidden;
-}
-.term-bar{ display:flex; align-items:center; gap:.5rem; padding:.6rem .85rem; border-bottom:1px solid var(--border); }
-.term-bar .win-title{ font-size:.74rem; }
-.term-body{
-  font-family:var(--ff-mono); font-size:.86rem; line-height:1.7;
-  padding:1.1rem 1.1rem 1.3rem;
-  min-height:200px; color:var(--text-dim);
-}
-.term-body .prompt{ color:var(--green); }
-.term-body .arg{ color:var(--cyan); }
-.term-body .out{ color:var(--text-dim); }
-.term-body .accent{ color:var(--purple); }
-.term-cursor{
-  display:inline-block; width:.55ch; height:1.05em; background:var(--cyan);
-  transform:translateY(.16em); animation:blink 1.1s steps(1) infinite;
-}
-@media (max-width:840px){ .why-grid{ grid-template-columns:1fr; } }
+.tab-pane { display: none; }
+.tab-pane.active { display: block; }
 
-/* =========================================================
-   GET STARTED
-   ========================================================= */
-.start-card{
-  margin-top:2.2rem;
-  border:1px solid var(--border-bright);
-  border-radius:var(--radius-lg);
-  background:linear-gradient(180deg, var(--surface-2), var(--surface));
-  overflow:hidden;
+.code-block {
+  margin-top: 1rem;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  overflow: hidden;
 }
-.tabs{ display:flex; border-bottom:1px solid var(--border); flex-wrap:wrap; }
-.tab{
-  font-family:var(--ff-mono); font-size:.85rem;
-  background:transparent; border:none; cursor:pointer;
-  color:var(--text-dim); padding:.95rem 1.2rem;
-  border-bottom:2px solid transparent;
-  transition:color .2s ease, border-color .2s ease, background .2s ease;
+.code-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .55rem 1rem;
+  border-bottom: 1px solid var(--border);
+  background: rgba(12,13,22,.3);
 }
-.tab:hover{ color:var(--text); background:rgba(122,162,247,.05); }
-.tab[aria-selected="true"]{ color:var(--blue); border-bottom-color:var(--blue); }
+.code-bar span {
+  font-family: var(--ff-m);
+  font-size: .72rem;
+  color: var(--muted);
+}
+.copy-btn {
+  font-family: var(--ff-m);
+  font-size: .7rem;
+  color: var(--text-dim);
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: .22rem .55rem;
+  cursor: pointer;
+  transition: all .15s;
+  display: flex;
+  align-items: center;
+  gap: .3rem;
+}
+.copy-btn:hover { border-color: var(--blue); color: var(--blue); }
+.copy-btn.copied { border-color: var(--green); color: var(--green); }
+pre.code {
+  margin: 0;
+  padding: 1.1rem 1.2rem;
+  font-family: var(--ff-m);
+  font-size: .86rem;
+  line-height: 1.7;
+  color: var(--text-dim);
+  overflow-x: auto;
+  white-space: pre;
+}
+pre.code .cmt { color: var(--muted); }
+pre.code .kw { color: var(--blue); }
+pre.code .str { color: var(--green); }
+pre.code .cmd { color: var(--cyan); }
+pre.code .flag { color: var(--purple); }
 
-.tabpanel{ padding:1.2rem 1.2rem 1.4rem; }
-.tabpanel[hidden]{ display:none; }
-.tab-note{ color:var(--text-dim); font-size:.92rem; margin:0 0 1rem; }
-.tab-note code{
-  font-family:var(--ff-mono); font-size:.85em; color:var(--cyan);
-  background:rgba(125,207,255,.08); padding:.1em .4em; border-radius:5px;
+/* ========================================
+   FAQ
+   ======================================== */
+.faq-list {
+  margin-top: 2.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: .6rem;
+}
+.faq-item {
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  overflow: hidden;
+  transition: border-color .2s;
+}
+.faq-item:hover { border-color: var(--border-b); }
+.faq-item.open { border-color: rgba(122,162,247,.4); }
+.faq-q {
+  width: 100%;
+  background: transparent;
+  border: none;
+  padding: 1.05rem 1.25rem;
+  text-align: left;
+  font-family: var(--ff-d);
+  font-size: .98rem;
+  font-weight: 600;
+  color: var(--text);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  transition: background .2s;
+}
+.faq-q:hover { background: rgba(36,40,59,.35); }
+.faq-q .arr {
+  width: 20px; height: 20px;
+  border: 1px solid var(--border-b);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: transform .25s, border-color .2s;
+  color: var(--muted);
+}
+.faq-item.open .faq-q .arr { transform: rotate(180deg); border-color: var(--blue); color: var(--blue); }
+.faq-a {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .3s ease, padding .3s;
+}
+.faq-a-inner {
+  padding: 0 1.25rem 1.1rem;
+  color: var(--text-dim);
+  font-size: .95rem;
+  line-height: 1.7;
+  border-top: 1px solid var(--border);
+  padding-top: .9rem;
+}
+.faq-item.open .faq-a { max-height: 400px; }
+
+/* ========================================
+   STATS ROW
+   ======================================== */
+.stats-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-top: 2.5rem;
+}
+.stat {
+  border: 1px solid var(--border);
+  background: var(--surface);
+  border-radius: var(--r);
+  padding: 1.3rem 1.2rem;
+  text-align: center;
+}
+.stat .num {
+  font-family: var(--ff-d);
+  font-weight: 700;
+  font-size: 2.2rem;
+  letter-spacing: -.04em;
+  color: var(--text);
+  line-height: 1;
+}
+.stat .num span { color: var(--cyan); }
+.stat .label {
+  font-family: var(--ff-m);
+  font-size: .73rem;
+  color: var(--muted);
+  margin-top: .4rem;
+  letter-spacing: .04em;
+}
+@media (max-width: 680px) { .stats-row { grid-template-columns: repeat(2,1fr); } }
+
+/* ========================================
+   CTA SECTION
+   ======================================== */
+.cta-section {
+  padding: clamp(4rem, 9vw, 7rem) 0;
+}
+.cta-box {
+  border: 1px solid var(--border-b);
+  background: linear-gradient(160deg, var(--surface-2) 0%, var(--surface) 100%);
+  border-radius: var(--r-lg);
+  padding: clamp(2.5rem, 6vw, 4rem) clamp(1.5rem, 5vw, 4rem);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.cta-box::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(36rem 24rem at 80% 0%, rgba(122,162,247,.12), transparent 55%),
+    radial-gradient(28rem 20rem at 10% 100%, rgba(187,154,247,.1), transparent 55%);
+  pointer-events: none;
+}
+.cta-box h2 {
+  font-family: var(--ff-d);
+  font-weight: 700;
+  font-size: clamp(1.7rem, 4.5vw, 3rem);
+  letter-spacing: -.03em;
+  margin: 0 0 .7rem;
+}
+.cta-box p { color: var(--text-dim); font-size: 1.05rem; margin: 0 0 2rem; max-width: 52ch; margin-inline: auto; margin-bottom: 2rem; }
+.cta-btns { display: flex; gap: .75rem; justify-content: center; flex-wrap: wrap; }
+.cta-note {
+  margin-top: 1.4rem;
+  font-family: var(--ff-m);
+  font-size: .78rem;
+  color: var(--muted);
 }
 
-.cmd{
-  position:relative;
-  background:#0e0f17;
-  border:1px solid var(--border);
-  border-radius:11px;
-  padding:.95rem 3.2rem .95rem 1rem;
-  font-family:var(--ff-mono); font-size:.85rem; line-height:1.8;
-  color:var(--text);
-  overflow-x:auto;
+/* ========================================
+   FOOTER
+   ======================================== */
+footer {
+  border-top: 1px solid var(--border);
+  padding: 2.5rem 0 2rem;
 }
-.cmd + .cmd{ margin-top:.7rem; }
-.cmd .gp{ color:var(--green); user-select:none; }
-.cmd .cm{ color:var(--muted); }
-.copy{
-  position:absolute; top:.6rem; right:.6rem;
-  background:var(--surface-3); border:1px solid var(--border-bright);
-  color:var(--text-dim); cursor:pointer;
-  font-family:var(--ff-mono); font-size:.7rem;
-  padding:.32rem .55rem; border-radius:7px;
-  display:inline-flex; align-items:center; gap:.35rem;
-  transition:color .2s ease, border-color .2s ease, background .2s ease;
+.footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-wrap: wrap;
 }
-.copy:hover{ color:var(--text); border-color:var(--blue); }
-.copy.done{ color:var(--green); border-color:rgba(158,206,106,.5); }
-.copy svg{ width:.95em; height:.95em; }
+.footer-brand {
+  font-family: var(--ff-m);
+  font-size: .85rem;
+  color: var(--muted);
+}
+.footer-brand strong { color: var(--text-dim); }
+.footer-links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+.footer-links a {
+  font-family: var(--ff-m);
+  font-size: .8rem;
+  color: var(--muted);
+  text-decoration: none;
+  transition: color .2s;
+}
+.footer-links a:hover { color: var(--text-dim); }
+.footer-badge {
+  font-family: var(--ff-m);
+  font-size: .72rem;
+  color: var(--muted);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: .22rem .55rem;
+}
 
-/* =========================================================
-   FOOTER / FINAL CTA
-   ========================================================= */
-.final{
-  text-align:center;
-  padding:clamp(4.5rem, 10vw, 7rem) 0 0;
+/* ========================================
+   ANNOUNCE BAR
+   ======================================== */
+.announce {
+  background: linear-gradient(90deg, rgba(122,162,247,.12) 0%, rgba(187,154,247,.08) 100%);
+  border-bottom: 1px solid rgba(122,162,247,.2);
+  padding: .55rem 0;
+  text-align: center;
+  position: relative;
+  z-index: 99;
 }
-.final h2{
-  font-family:var(--ff-display); font-weight:700;
-  font-size:clamp(1.8rem, 5vw, 3rem); letter-spacing:-.025em;
-  line-height:1.08; margin:1rem auto 0; max-width:18ch;
+.announce p {
+  font-family: var(--ff-m);
+  font-size: .78rem;
+  color: var(--text-dim);
+  margin: 0;
 }
-.final p{ color:var(--text-dim); max-width:54ch; margin:1.1rem auto 0; font-size:1.05rem; }
-.final .hero-cta{ margin-top:1.8rem; }
+.announce a { color: var(--cyan); }
+.announce strong { color: var(--text); }
 
-footer{
-  margin-top:clamp(4rem, 9vw, 6rem);
-  border-top:1px solid var(--border);
-  padding:2rem 0 2.4rem;
+/* ========================================
+   SCROLL-REVEAL utility
+   ======================================== */
+.reveal {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity .6s ease, transform .6s ease;
 }
-.foot-row{ display:flex; align-items:center; justify-content:space-between; gap:1rem; flex-wrap:wrap; }
-.foot-brand{ font-family:var(--ff-mono); font-weight:700; color:var(--text); }
-.foot-meta{ font-family:var(--ff-mono); font-size:.78rem; color:var(--muted); }
-.foot-meta a{ color:var(--text-dim); }
-.foot-meta a:hover{ color:var(--blue); }
-.foot-tags{ display:flex; gap:.45rem; flex-wrap:wrap; margin-top:1.2rem; }
-.totop{
-  font-family:var(--ff-mono); font-size:.78rem; color:var(--text-dim);
-  border:1px solid var(--border-bright); border-radius:8px;
-  padding:.4rem .7rem; background:transparent; cursor:pointer;
-}
-.totop:hover{ color:var(--blue); border-color:var(--blue); }
-.foot-note{ font-family:var(--ff-mono); font-size:.74rem; color:var(--muted); margin-top:1.3rem; }
+.reveal.visible { opacity: 1; transform: translateY(0); }
 
-/* =========================================================
-   SCROLL REVEAL
-   ========================================================= */
-.reveal{ opacity:0; transform:translateY(18px); transition:opacity .6s ease, transform .6s ease; }
-.reveal.in{ opacity:1; transform:none; }
-.stagger > *{ opacity:0; transform:translateY(16px); transition:opacity .55s ease, transform .55s ease; }
-.stagger.in > *{ opacity:1; transform:none; }
-.stagger.in > *:nth-child(2){ transition-delay:.08s; }
-.stagger.in > *:nth-child(3){ transition-delay:.16s; }
-.stagger.in > *:nth-child(4){ transition-delay:.24s; }
-.stagger.in > *:nth-child(5){ transition-delay:.32s; }
-.stagger.in > *:nth-child(6){ transition-delay:.40s; }
-.stagger.in > *:nth-child(7){ transition-delay:.46s; }
-.stagger.in > *:nth-child(8){ transition-delay:.52s; }
-.stagger.in > *:nth-child(9){ transition-delay:.58s; }
-
-@media (prefers-reduced-motion: reduce){
-  .reveal, .stagger > *{ opacity:1!important; transform:none!important; transition:none!important; }
-  .brand .cursor, .term-cursor{ animation:none; }
+/* ========================================
+   SECTION DIVIDER
+   ======================================== */
+.divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--border), transparent);
+  margin: 0 auto;
+  max-width: var(--maxw);
+  padding-inline: 24px;
 }
 </style>
 </head>
+
 <body>
 
-<!-- ============== NAV ============== -->
-<header class="nav" id="nav">
+<!-- Announce bar -->
+<div class="announce">
+  <div class="wrap">
+    <p><strong>Open source & free.</strong> Star us on GitHub to help others discover a private AI alternative. &nbsp;<a href="https://github.com/TYFSADIK/chakor" target="_blank" rel="noopener">⭐ Star on GitHub →</a></p>
+  </div>
+</div>
+
+<!-- =========================================================
+     NAV
+     ========================================================= -->
+<header>
+<nav class="nav" id="nav" role="navigation" aria-label="Main navigation">
   <div class="wrap nav-inner">
-    <a class="brand" href="#top" aria-label="Chakor home">
-      <span class="tilde">~/</span><span class="name">chakor</span><span class="cursor" aria-hidden="true"></span>
+    <a href="/" class="brand" aria-label="Chakor home">
+      <!-- Inline SVG logo -->
+      <svg class="brand-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <defs>
+          <linearGradient id="nl-bg" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#1f2335"/>
+            <stop offset="100%" stop-color="#16161e"/>
+          </linearGradient>
+          <linearGradient id="nl-arc" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#7dcfff"/>
+            <stop offset="100%" stop-color="#7aa2f7"/>
+          </linearGradient>
+        </defs>
+        <rect width="64" height="64" rx="14" fill="url(#nl-bg)"/>
+        <path d="M44 20a18 18 0 0 0-12-4.5C22.3 15.5 15 22.8 15 32s7.3 16.5 17 16.5A18 18 0 0 0 44 44"
+              stroke="url(#nl-arc)" stroke-width="5" stroke-linecap="round"/>
+        <circle cx="44" cy="20" r="3" fill="#7dcfff"/>
+        <line x1="44" y1="20" x2="52" y2="20" stroke="#7dcfff" stroke-width="2" stroke-linecap="round"/>
+        <line x1="52" y1="20" x2="52" y2="13" stroke="#7dcfff" stroke-width="2" stroke-linecap="round"/>
+        <circle cx="52" cy="13" r="3" fill="#bb9af7"/>
+        <circle cx="44" cy="44" r="3" fill="#7dcfff"/>
+        <line x1="44" y1="44" x2="52" y2="44" stroke="#7dcfff" stroke-width="2" stroke-linecap="round"/>
+        <line x1="52" y1="44" x2="52" y2="51" stroke="#7dcfff" stroke-width="2" stroke-linecap="round"/>
+        <circle cx="52" cy="51" r="3" fill="#9ece6a"/>
+      </svg>
+      <span class="brand-name">chakor<span class="brand-cursor" aria-hidden="true"></span></span>
     </a>
 
-    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
-    </button>
+    <ul class="nav-links" id="nav-links" role="list">
+      <li><a href="#features">Features</a></li>
+      <li><a href="#compare">Compare</a></li>
+      <li><a href="#install">Install</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li>
+        <a href="https://github.com/TYFSADIK/chakor" target="_blank" rel="noopener noreferrer" class="nav-gh" aria-label="View Chakor on GitHub">
+          <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+          GitHub
+        </a>
+      </li>
+    </ul>
 
-    <nav>
-      <ul class="nav-links" id="navLinks">
-        <li><a href="#features">Features</a></li>
-        <li><a href="#compare">Compare</a></li>
-        <li><a href="#why">Why</a></li>
-        <li><a href="#start">Get started</a></li>
-        <li>
-          <a class="nav-gh" href="https://github.com/TYFSADIK/chakor" target="_blank" rel="noopener">
-            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.2.8-.5v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.7.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 5.1 18.3 5.4 18.3 5.4c.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.6.8.5 4.6-1.5 7.9-5.8 7.9-10.9C23.5 5.7 18.3.5 12 .5z"/></svg>
-            GitHub
-          </a>
-        </li>
-      </ul>
-    </nav>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <line x1="3" y1="6" x2="21" y2="6"/>
+        <line x1="3" y1="12" x2="21" y2="12"/>
+        <line x1="3" y1="18" x2="21" y2="18"/>
+      </svg>
+    </button>
   </div>
+</nav>
 </header>
 
-<main id="top">
+<main>
 
-  <!-- ============== HERO ============== -->
-  <section class="hero">
-    <div class="wrap">
-      <span class="eyebrow">open source <b>·</b> self-hosted <b>·</b> no telemetry</span>
-      <h1>Chakor</h1>
-      <p class="tagline">Your AI, on <em>your</em> hardware.</p>
-      <p class="lede">
-        An open source AI workspace you run yourself. Chat, search the web, talk to your
-        documents, compare models side by side, and run real research. Every conversation
-        lives in a database on your machine, not in someone else's data center.
-      </p>
-      <p class="aside">(bring your own cloud keys if you want. i am not here to tell you how to live your life.)</p>
+<!-- =========================================================
+     HERO
+     ========================================================= -->
+<section class="hero" aria-labelledby="hero-title">
+  <div class="wrap">
+    <p class="eyebrow"><b>open source</b> · self-hosted · private</p>
+    <h1 id="hero-title">Chakor</h1>
+    <p class="hero-tagline">Your AI, on <em>your hardware</em>.</p>
+    <p class="hero-lede">
+      A free, open source AI workspace you run yourself. Chat with any local or cloud model,
+      search the web, talk to your documents, compare models side by side — with zero tracking
+      and zero cloud dependency.
+    </p>
+    <p class="hero-aside">// Conversations live in a database on your disk. Nobody else's.</p>
 
-      <div class="hero-cta">
-        <a class="btn btn-primary" href="#start">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg>
-          Quick start
+    <div class="hero-cta">
+      <a href="https://github.com/TYFSADIK/chakor#quick-start" class="btn btn-primary" target="_blank" rel="noopener">
+        <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+        Get started free
+      </a>
+      <a href="#features" class="btn btn-ghost">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 8 16 12 12 16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+        Explore features
+      </a>
+    </div>
+
+    <div class="hero-pills" role="list" aria-label="Key features">
+      <span class="pill g" role="listitem"><b>Local models</b></span>
+      <span class="pill c" role="listitem"><b>Web search</b></span>
+      <span class="pill b" role="listitem"><b>Doc chat</b></span>
+      <span class="pill p" role="listitem"><b>Model compare</b></span>
+      <span class="pill y" role="listitem"><b>Notes &amp; memory</b></span>
+      <span class="pill" role="listitem" style="--accent:var(--teal)"><b style="color:var(--teal)">No telemetry</b></span>
+      <span class="pill" role="listitem"><b style="color:var(--orange)">Android ready</b></span>
+    </div>
+  </div>
+</section>
+
+<!-- App window mockup -->
+<div class="mock-stage">
+  <div class="wrap">
+    <div class="window" role="img" aria-label="Screenshot of Chakor AI workspace showing model list with hardware fit tags">
+      <div class="win-bar">
+        <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+        <span class="win-title"><b>chakor</b> — models</span>
+      </div>
+      <div class="win-body">
+        <div class="side" aria-hidden="true">
+          <div class="side-new">
+            <span class="ic">+</span> New chat
+          </div>
+          <div class="side-grp">Today</div>
+          <div class="side-row active">
+            <span class="ic">◆</span>
+            Build a REST API with auth
+          </div>
+          <div class="side-row">
+            <span class="ic">◆</span>
+            Explain transformer models
+          </div>
+          <div class="side-row">
+            <span class="ic">◆</span>
+            Draft a privacy policy
+          </div>
+          <div class="side-grp">Yesterday</div>
+          <div class="side-row">
+            <span class="ic">◆</span>
+            Analyse Q3 sales data
+          </div>
+          <div class="side-row">
+            <span class="ic">◆</span>
+            React hooks deep dive
+          </div>
+          <div style="flex:1"></div>
+          <div class="side-special"><span class="ic">≡</span> Compare</div>
+          <div class="side-special"><span class="ic">✎</span> Notes</div>
+          <div class="side-special"><span class="ic">◉</span> Memory</div>
+        </div>
+        <div class="panel" aria-hidden="true">
+          <div class="panel-head">
+            <h3>Models</h3>
+            <div class="engines">
+              <div class="eng on"><span class="led"></span>Ollama · 3 models</div>
+              <div class="eng on"><span class="led"></span>llama.cpp</div>
+              <div class="eng"><span class="led"></span>LM Studio</div>
+            </div>
+          </div>
+          <div class="hw">
+            <span class="k">ram</span><span class="v">32 GB</span>
+            <span class="sep">·</span>
+            <span class="k">gpu</span><span class="v">RTX 3060 12 GB</span>
+            <span class="sep">·</span>
+            <span class="k">free</span><span class="v">9.8 GB VRAM</span>
+          </div>
+          <div class="models">
+            <div class="model sel">
+              <div>
+                <div class="m-name">Llama 3.2 · 3B</div>
+                <div class="m-meta">Q4_K_M · 2.0 GB · Ollama</div>
+              </div>
+              <div class="m-tags">
+                <span class="chip chip-fits">fits</span>
+                <span class="chip chip-rec">rec</span>
+              </div>
+            </div>
+            <div class="model">
+              <div>
+                <div class="m-name">Mistral 7B Instruct</div>
+                <div class="m-meta">Q5_K_M · 5.1 GB · llama.cpp</div>
+              </div>
+              <div class="m-tags">
+                <span class="chip chip-fits">fits</span>
+              </div>
+            </div>
+            <div class="model">
+              <div>
+                <div class="m-name">Mixtral 8×7B MoE</div>
+                <div class="m-meta">Q3_K_M · 19.4 GB · llama.cpp</div>
+              </div>
+              <div class="m-tags">
+                <span class="chip chip-tight">tight</span>
+              </div>
+            </div>
+            <div class="model">
+              <div>
+                <div class="m-name">Llama 3.1 · 70B</div>
+                <div class="m-meta">Q4_K_M · 42.5 GB · Ollama</div>
+              </div>
+              <div class="m-tags">
+                <span class="chip chip-big">too big</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Stats -->
+<section class="section" aria-label="Chakor stats">
+  <div class="wrap">
+    <div class="stats-row reveal">
+      <div class="stat">
+        <div class="num">100<span>%</span></div>
+        <div class="label">self-hosted</div>
+      </div>
+      <div class="stat">
+        <div class="num">0<span>¢</span></div>
+        <div class="label">cost to self-host</div>
+      </div>
+      <div class="stat">
+        <div class="num">5<span>+</span></div>
+        <div class="label">AI providers</div>
+      </div>
+      <div class="stat">
+        <div class="num">MIT</div>
+        <div class="label">open source license</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- =========================================================
+     BUILT DIFFERENT
+     ========================================================= -->
+<section class="section" id="features" aria-labelledby="diff-title">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow"><b>why chakor</b></p>
+      <h2 class="sec-title" id="diff-title">Built different, on purpose.</h2>
+      <p class="sec-lede">Three things you will not find stitched together anywhere else.</p>
+    </div>
+
+    <div class="diff-grid">
+      <article class="diff-card reveal" style="--accent:var(--cyan);--accent-rgb:125,207,255">
+        <div class="num">01</div>
+        <h3>Knows what your machine can actually run</h3>
+        <p>Chakor reads your RAM and GPU first, then tags every model <strong>FITS</strong>, <strong>TIGHT</strong>, or <strong>TOO BIG</strong>. A 4 GB laptop and a 24 GB workstation each get an honest answer — not a crash.</p>
+        <div class="demo">
+          <span class="chip chip-fits">FITS</span>
+          <span class="chip chip-tight">TIGHT</span>
+          <span class="chip chip-big">TOO BIG</span>
+          <span class="chip chip-rec">REC</span>
+        </div>
+      </article>
+
+      <article class="diff-card reveal" style="--accent:var(--blue);--accent-rgb:122,162,247;transition-delay:.1s">
+        <div class="num">02</div>
+        <h3>Download models without touching a terminal</h3>
+        <p>Search Hugging Face from inside the app. See every quant with its size and a fit tag, click once. It downloads in the background, straight into your models folder. Close the tab and it keeps going.</p>
+        <div class="demo" style="font-size:.72rem;color:var(--text-dim)">
+          <span style="color:var(--green)">▓▓▓▓▓▓▓░</span> llama-3.2-3b-q4.gguf &nbsp;
+          <span style="color:var(--cyan)">2.1 GB/s</span>
+        </div>
+      </article>
+
+      <article class="diff-card reveal" style="--accent:var(--purple);--accent-rgb:187,154,247;transition-delay:.2s">
+        <div class="num">03</div>
+        <h3>Switch engines without the crashes</h3>
+        <p>Flip between llama.cpp, Ollama, and LM Studio in one tap. Chakor unloads the previous model first, so two engines never fight for the same VRAM and crash on a modest GPU.</p>
+        <div class="demo" style="gap:.5rem">
+          <span class="eng on" style="font-size:.68rem"><span class="led"></span>Ollama</span>
+          <span style="color:var(--muted)">→</span>
+          <span class="eng on" style="font-size:.68rem;border-color:rgba(122,162,247,.4);color:var(--text)"><span class="led" style="background:var(--blue)"></span>llama.cpp</span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- =========================================================
+     FEATURE GRID
+     ========================================================= -->
+<section class="section" aria-labelledby="feat-title">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow"><b>everything it does</b></p>
+      <h2 class="sec-title" id="feat-title">One workspace. Every AI feature.</h2>
+      <p class="sec-lede">From local hardware to cloud APIs — Chakor has it all in one place.</p>
+    </div>
+
+    <div class="feat-grid">
+
+      <article class="feat reveal" style="--accent:var(--cyan)">
+        <div class="icon-wrap" aria-hidden="true">⚡</div>
+        <div class="tok">models</div>
+        <h4>Local &amp; cloud models</h4>
+        <p>Ollama, llama.cpp, LM Studio — or your own keys for OpenAI, Anthropic, Google, and OpenRouter. One interface for everything.</p>
+      </article>
+
+      <article class="feat reveal" style="--accent:var(--blue);transition-delay:.05s">
+        <div class="icon-wrap" aria-hidden="true">🔍</div>
+        <div class="tok">search</div>
+        <h4>Web search built in</h4>
+        <p>Per-message web search with SearXNG, then Brave, then DuckDuckGo fallback. Real answers grounded in live sources.</p>
+      </article>
+
+      <article class="feat reveal" style="--accent:var(--purple);transition-delay:.1s">
+        <div class="icon-wrap" aria-hidden="true">📄</div>
+        <div class="tok">rag</div>
+        <h4>Talk to your documents</h4>
+        <p>Drop PDFs, Markdown, or text files and ask questions. Chakor retrieves relevant passages and answers from them.</p>
+      </article>
+
+      <article class="feat reveal" style="--accent:var(--green);transition-delay:.15s">
+        <div class="icon-wrap" aria-hidden="true">⚖️</div>
+        <div class="tok">compare</div>
+        <h4>Blind A/B model compare</h4>
+        <p>Run the same prompt across models side by side, vote blind, and build a personal leaderboard of which model wins.</p>
+      </article>
+
+      <article class="feat reveal" style="--accent:var(--yellow);transition-delay:.2s">
+        <div class="icon-wrap" aria-hidden="true">🧠</div>
+        <div class="tok">memory</div>
+        <h4>Memory across conversations</h4>
+        <p>Tell Chakor facts you want remembered. They persist across every conversation, so you never repeat yourself.</p>
+      </article>
+
+      <article class="feat reveal" style="--accent:var(--teal);transition-delay:.25s">
+        <div class="icon-wrap" aria-hidden="true">📝</div>
+        <div class="tok">notes</div>
+        <h4>Notes &amp; checklists</h4>
+        <p>A built-in Keep-style notepad with checklists, colors, pinning, and archive. Your workspace, your notes.</p>
+      </article>
+
+      <article class="feat reveal" style="--accent:var(--red);transition-delay:.3s">
+        <div class="icon-wrap" aria-hidden="true">🔒</div>
+        <div class="tok">privacy</div>
+        <h4>Zero telemetry</h4>
+        <p>No analytics. No tracking pixels. Conversations stay in a local SQLite database on your disk. Forever.</p>
+      </article>
+
+      <article class="feat reveal" style="--accent:var(--orange);transition-delay:.35s">
+        <div class="icon-wrap" aria-hidden="true">👥</div>
+        <div class="tok">multi-user</div>
+        <h4>Multi-user with admin panel</h4>
+        <p>Run for your whole team. Invite codes, registration control, and an admin panel to manage accounts.</p>
+      </article>
+
+      <article class="feat reveal" style="--accent:var(--cyan);transition-delay:.4s">
+        <div class="icon-wrap" aria-hidden="true">📱</div>
+        <div class="tok">pwa</div>
+        <h4>Installable on any device</h4>
+        <p>Works as a PWA on phones and desktops. Even runs the server on Android via Termux.</p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- =========================================================
+     COMPARISON TABLE
+     ========================================================= -->
+<section class="section" id="compare" aria-labelledby="cmp-title">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow"><b>comparison</b></p>
+      <h2 class="sec-title" id="cmp-title">Chakor vs the usual options.</h2>
+      <p class="sec-lede">Both Open WebUI and LM Studio are good. Here is where Chakor is different.</p>
+    </div>
+
+    <div class="cmp-wrap reveal">
+      <div class="cmp-scroll">
+        <table class="cmp">
+          <thead>
+            <tr>
+              <th>Feature</th>
+              <th class="ours">Chakor</th>
+              <th>Open WebUI</th>
+              <th>LM Studio</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Open source</td><td class="ours yes">✓</td><td class="yes">✓</td><td class="no">✗</td></tr>
+            <tr><td>Self-host on a server</td><td class="ours yes">✓</td><td class="yes">✓</td><td class="par">desktop only</td></tr>
+            <tr><td>Run on Android (Termux)</td><td class="ours yes">✓</td><td class="par">partial</td><td class="no">✗</td></tr>
+            <tr><td>Local models (Ollama / llama.cpp)</td><td class="ours yes">✓</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+            <tr><td>One UI for llama.cpp + Ollama + LM Studio</td><td class="ours yes">✓</td><td class="par">partial</td><td class="no">✗</td></tr>
+            <tr><td>Hardware fit tag per model</td><td class="ours yes">✓</td><td class="no">✗</td><td class="par">partial</td></tr>
+            <tr><td>Download GGUF from Hugging Face in-app</td><td class="ours yes">✓</td><td class="no">✗</td><td class="yes">✓</td></tr>
+            <tr><td>Background downloads (close tab &amp; wait)</td><td class="ours yes">✓</td><td class="no">✗</td><td class="yes">✓</td></tr>
+            <tr><td>Frees old model before loading new one</td><td class="ours yes">✓</td><td class="no">✗</td><td class="par">n/a</td></tr>
+            <tr><td>Bring your own cloud keys</td><td class="ours yes">✓</td><td class="yes">✓</td><td class="par">limited</td></tr>
+            <tr><td>Web search built in</td><td class="ours yes">✓</td><td class="yes">✓</td><td class="no">✗</td></tr>
+            <tr><td>Chat with your documents</td><td class="ours yes">✓</td><td class="yes">✓</td><td class="par">beta</td></tr>
+            <tr><td>Multi-user + admin panel</td><td class="ours yes">✓</td><td class="yes">✓</td><td class="no">✗</td></tr>
+            <tr><td>Blind A/B compare + leaderboard</td><td class="ours yes">✓</td><td class="par">partial</td><td class="no">✗</td></tr>
+            <tr><td>Notes + memory across conversations</td><td class="ours yes">✓</td><td class="par">partial</td><td class="no">✗</td></tr>
+            <tr><td>Rebrand from one config file</td><td class="ours yes">✓</td><td class="no">✗</td><td class="no">✗</td></tr>
+            <tr><td>One small codebase you can read</td><td class="ours yes">✓</td><td class="par">heavy</td><td class="no">closed</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- =========================================================
+     INSTALL
+     ========================================================= -->
+<section class="section" id="install" aria-labelledby="install-title">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow"><b>quick start</b></p>
+      <h2 class="sec-title" id="install-title">Up and running in one command.</h2>
+      <p class="sec-lede">All three paths land on <strong>http://localhost:3001</strong>. The first account you register becomes the admin.</p>
+    </div>
+
+    <div class="install-tabs" role="tablist" aria-label="Install methods">
+      <button class="tab-btn active" role="tab" aria-selected="true" aria-controls="tab-docker" data-tab="docker">Docker</button>
+      <button class="tab-btn" role="tab" aria-selected="false" aria-controls="tab-bash" data-tab="bash">One-line installer</button>
+      <button class="tab-btn" role="tab" aria-selected="false" aria-controls="tab-manual" data-tab="manual">Manual / Dev</button>
+      <button class="tab-btn" role="tab" aria-selected="false" aria-controls="tab-android" data-tab="android">Android (Termux)</button>
+    </div>
+
+    <div id="tab-docker" class="tab-pane active" role="tabpanel">
+      <div class="code-block">
+        <div class="code-bar">
+          <span>bash · Linux, macOS, Windows</span>
+          <button class="copy-btn" data-copy="tab-docker-code">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            Copy
+          </button>
+        </div>
+        <pre class="code" id="tab-docker-code"><span class="cmt"># Clone and start (Docker Engine or Docker Desktop required)</span>
+<span class="cmd">git clone</span> https://github.com/TYFSADIK/chakor.git <span class="flag">&amp;&amp;</span> <span class="cmd">cd</span> chakor
+<span class="cmd">docker compose up -d</span>
+
+<span class="cmt"># Optional: bundle a local model with Ollama</span>
+<span class="cmd">docker compose --profile ollama up -d</span>
+<span class="cmd">docker compose exec ollama</span> ollama pull llama3.2</pre>
+      </div>
+    </div>
+
+    <div id="tab-bash" class="tab-pane" role="tabpanel">
+      <div class="code-block">
+        <div class="code-bar">
+          <span>bash · Linux, macOS</span>
+          <button class="copy-btn" data-copy="tab-bash-code">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            Copy
+          </button>
+        </div>
+        <pre class="code" id="tab-bash-code"><span class="cmt"># Installs Git, Node, Ollama and starts Chakor</span>
+<span class="cmd">git clone</span> https://github.com/TYFSADIK/chakor.git <span class="flag">&amp;&amp;</span> <span class="cmd">cd</span> chakor
+<span class="cmd">bash install.sh</span>
+
+<span class="cmt"># Want everything including CUDA for NVIDIA GPUs?</span>
+<span class="cmd">bash install.sh</span> <span class="flag">--all</span>
+
+<span class="cmt"># Fresh server, fully unattended, runs as a service</span>
+<span class="cmd">sudo bash install.sh</span> <span class="flag">--yes --service</span></pre>
+      </div>
+    </div>
+
+    <div id="tab-manual" class="tab-pane" role="tabpanel">
+      <div class="code-block">
+        <div class="code-bar">
+          <span>bash · Node 20+</span>
+          <button class="copy-btn" data-copy="tab-manual-code">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            Copy
+          </button>
+        </div>
+        <pre class="code" id="tab-manual-code"><span class="cmd">git clone</span> https://github.com/TYFSADIK/chakor.git <span class="flag">&amp;&amp;</span> <span class="cmd">cd</span> chakor
+<span class="cmd">npm install</span> <span class="flag">--legacy-peer-deps</span>
+<span class="cmd">cp</span> .env.example .env.local      <span class="cmt"># then set AUTH_SECRET</span>
+<span class="cmd">npm run build</span>
+<span class="cmd">npm start</span>
+
+<span class="cmt"># Development with hot reload</span>
+<span class="cmd">npm run dev</span></pre>
+      </div>
+    </div>
+
+    <div id="tab-android" class="tab-pane" role="tabpanel">
+      <div class="code-block">
+        <div class="code-bar">
+          <span>Termux · Android</span>
+          <button class="copy-btn" data-copy="tab-android-code">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            Copy
+          </button>
+        </div>
+        <pre class="code" id="tab-android-code"><span class="cmt"># 1. Install Termux from F-Droid (not Play Store)</span>
+<span class="cmt"># 2. Open Termux and run:</span>
+<span class="cmd">pkg install</span> git
+<span class="cmd">git clone</span> https://github.com/TYFSADIK/chakor.git <span class="flag">&amp;&amp;</span> <span class="cmd">cd</span> chakor
+<span class="cmd">bash install.sh</span>
+
+<span class="cmt"># Your phone is now the server.</span>
+<span class="cmt"># Open http://localhost:3001 in any browser.</span></pre>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- =========================================================
+     FAQ
+     ========================================================= -->
+<section class="section" id="faq" aria-labelledby="faq-title">
+  <div class="wrap" style="max-width:800px">
+    <div class="section-head">
+      <p class="eyebrow"><b>faq</b></p>
+      <h2 class="sec-title" id="faq-title">Common questions about Chakor.</h2>
+    </div>
+
+    <div class="faq-list" role="list">
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-q" aria-expanded="false">
+          What is Chakor?
+          <span class="arr" aria-hidden="true">
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </span>
+        </button>
+        <div class="faq-a" role="region">
+          <div class="faq-a-inner">
+            Chakor is a free, open source AI workspace you run on your own hardware. It supports local AI models through Ollama, llama.cpp, and LM Studio, as well as cloud models via your own API keys (OpenAI, Anthropic, Google, OpenRouter). Everything stays on your machine — no tracking, no cloud dependency.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-q" aria-expanded="false">
+          Is Chakor free?
+          <span class="arr" aria-hidden="true">
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </span>
+        </button>
+        <div class="faq-a" role="region">
+          <div class="faq-a-inner">
+            Yes. Chakor is completely free and open source under the MIT license. You run it on your own server or machine at no cost. Cloud model API costs (OpenAI, Anthropic, etc.) depend on your usage and the provider's pricing — Chakor never charges for those.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-q" aria-expanded="false">
+          Do I need a GPU to run Chakor?
+          <span class="arr" aria-hidden="true">
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </span>
+        </button>
+        <div class="faq-a" role="region">
+          <div class="faq-a-inner">
+            No. CPU works fine, just slower for local inference. Or use cloud API keys and run nothing locally at all. Chakor reads your actual hardware and tags each local model FITS, TIGHT, or TOO BIG before you load it — so you never accidentally load something that crashes.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-q" aria-expanded="false">
+          How is Chakor different from Open WebUI or LM Studio?
+          <span class="arr" aria-hidden="true">
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </span>
+        </button>
+        <div class="faq-a" role="region">
+          <div class="faq-a-inner">
+            Chakor is open source (unlike LM Studio), runs as a server you can access from any device including phones (unlike LM Studio's desktop-only mode), and is lighter and simpler than Open WebUI. Chakor uniquely tags every model FITS, TIGHT, or TOO BIG based on your actual RAM and GPU, lets you download GGUF models from Hugging Face inside the app, and switches engines without OOM crashes.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-q" aria-expanded="false">
+          Does Chakor send any data to the cloud?
+          <span class="arr" aria-hidden="true">
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </span>
+        </button>
+        <div class="faq-a" role="region">
+          <div class="faq-a-inner">
+            No. Chakor has zero telemetry. All conversations are stored in a local SQLite database on your disk. Data only leaves your machine when you explicitly use web search or choose a cloud model provider — and only to that provider. There is no analytics, no tracking, no data collection of any kind.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-q" aria-expanded="false">
+          Can Chakor run on Android?
+          <span class="arr" aria-hidden="true">
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </span>
+        </button>
+        <div class="faq-a" role="region">
+          <div class="faq-a-inner">
+            Yes. Install Termux from F-Droid and run <code style="font-family:var(--ff-m);color:var(--cyan);font-size:.9em">bash install.sh</code>. Your phone becomes the server. You can also access a Chakor server running on another machine from any phone browser and install it as a PWA — no app store required.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item" role="listitem">
+        <button class="faq-q" aria-expanded="false">
+          Can I use my OpenAI / Anthropic / Google key with Chakor?
+          <span class="arr" aria-hidden="true">
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </span>
+        </button>
+        <div class="faq-a" role="region">
+          <div class="faq-a-inner">
+            Yes. Paste your API keys into <code style="font-family:var(--ff-m);color:var(--cyan);font-size:.9em">.env.local</code> and those providers' models appear automatically in the model picker. You can also paste keys per-user in Settings so each person uses their own key without sharing it with others on the same server.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- =========================================================
+     CTA
+     ========================================================= -->
+<section class="cta-section" aria-labelledby="cta-title">
+  <div class="wrap">
+    <div class="cta-box">
+      <h2 id="cta-title">Your AI should answer to you,<br>not to a data broker.</h2>
+      <p>Run Chakor on your laptop. Run it on a server. Run it on an old phone in a drawer. Keep every word.</p>
+      <div class="cta-btns">
+        <a href="https://github.com/TYFSADIK/chakor#quick-start" class="btn btn-primary" target="_blank" rel="noopener">
+          <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+          Get started — it's free
         </a>
-        <a class="btn btn-ghost" href="https://github.com/TYFSADIK/chakor" target="_blank" rel="noopener">
-          View on GitHub
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M9 7h8v8"/></svg>
-        </a>
-      </div>
-
-      <div class="hero-pills">
-        <span class="pill b-blue">runs on <b>Ollama</b>, llama.cpp &amp; LM Studio</span>
-        <span class="pill b-cyan">or any <b>cloud key</b> you hold</span>
-        <span class="pill b-green">your data stays a <b>file on your disk</b></span>
-        <span class="pill b-purple">even runs on a <b>phone</b></span>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============== APP MOCKUP (signature) ============== -->
-  <section class="mock-stage reveal" aria-label="Chakor settings preview">
-    <div class="wrap">
-      <div class="window">
-        <div class="win-bar">
-          <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
-          <span class="win-title"><b>chakor</b> &nbsp;·&nbsp; settings &rsaquo; models</span>
-        </div>
-        <div class="win-body">
-          <aside class="side" aria-hidden="true">
-            <div class="side-new"><span>+</span> New chat</div>
-            <div class="side-group">PINNED</div>
-            <div class="side-row"><span class="ic">★</span> homelab notes</div>
-            <div class="side-row"><span class="ic">#</span> incident runbook</div>
-            <div class="side-group">RECENT</div>
-            <div class="side-row active"><span class="ic">⚙</span> Settings</div>
-            <div class="side-row"><span class="ic">▣</span> Compare run</div>
-            <div class="side-row"><span class="ic">◷</span> Research: GGUF quants</div>
-          </aside>
-
-          <div class="panel">
-            <div class="panel-head">
-              <h3>Models</h3>
-              <div class="engines">
-                <span class="eng on"><span class="led"></span>llama.cpp</span>
-                <span class="eng on"><span class="led"></span>Ollama</span>
-                <span class="eng"><span class="led"></span>LM Studio</span>
-              </div>
-            </div>
-
-            <div class="hw">
-              <span class="k">detected:</span>
-              <span class="v">64 GB RAM</span><span class="sep">·</span>
-              <span class="v">NVIDIA RTX 3090</span><span class="sep">·</span>
-              <span class="v">24 GB VRAM</span>
-            </div>
-
-            <div class="models">
-              <div class="model sel">
-                <div>
-                  <div class="m-name">Llama 3.2 3B Instruct</div>
-                  <div class="m-meta">Q4_K_M · 2.0 GB</div>
-                </div>
-                <div class="m-tags">
-                  <span class="chip chip-rec">recommended</span>
-                  <span class="chip chip-fits">fits</span>
-                </div>
-              </div>
-              <div class="model">
-                <div>
-                  <div class="m-name">Qwen 2.5 14B Instruct</div>
-                  <div class="m-meta">Q4_K_M · 9.0 GB</div>
-                </div>
-                <div class="m-tags"><span class="chip chip-fits">fits</span></div>
-              </div>
-              <div class="model">
-                <div>
-                  <div class="m-name">Qwen 2.5 32B Instruct</div>
-                  <div class="m-meta">Q4_K_M · 20 GB</div>
-                </div>
-                <div class="m-tags"><span class="chip chip-tight">tight</span></div>
-              </div>
-              <div class="model">
-                <div>
-                  <div class="m-name">Mixtral 8x7B</div>
-                  <div class="m-meta">Q4_K_M · 26 GB</div>
-                </div>
-                <div class="m-tags"><span class="chip chip-big">too big</span></div>
-              </div>
-              <div class="model">
-                <div>
-                  <div class="m-name">Llama 3.1 70B</div>
-                  <div class="m-meta">Q5_K_M · 50 GB</div>
-                </div>
-                <div class="m-tags"><span class="chip chip-big">too big</span></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============== BUILT DIFFERENT ============== -->
-  <section class="section" id="built">
-    <div class="wrap">
-      <div class="section-head reveal">
-        <span class="eyebrow">built different</span>
-        <h2 class="sec-title">Three things you will not find stitched together anywhere else.</h2>
-        <p class="sec-lede">Most local AI tools make you find out the hard way. Chakor tells you up front, then gets out of your way.</p>
-      </div>
-
-      <div class="diff-grid stagger">
-        <article class="diff-card" style="--accent:var(--green)">
-          <span class="num">01</span>
-          <h3>It knows what your machine can run</h3>
-          <p>Chakor reads your RAM and GPU first, then tags every model so you never load one that crashes. A 4 GB laptop and a 24 GB workstation each get an honest answer.</p>
-          <div class="demo">
-            <span class="chip chip-fits">fits</span>
-            <span class="chip chip-tight">tight</span>
-            <span class="chip chip-big">too big</span>
-          </div>
-        </article>
-
-        <article class="diff-card" style="--accent:var(--cyan)">
-          <span class="num">02</span>
-          <h3>Get models without touching a terminal</h3>
-          <p>Search Hugging Face inside the app, see every quant with its size and a fit tag, and click once. It downloads in the background, straight into your models folder. Close the tab and it keeps going.</p>
-          <div class="demo" style="color:var(--cyan)">downloading qwen2.5-14b · 64% · 28 MB/s</div>
-        </article>
-
-        <article class="diff-card" style="--accent:var(--purple)">
-          <span class="num">03</span>
-          <h3>Switch engines without the crashes</h3>
-          <p>Flip between llama.cpp, Ollama, and LM Studio in one tap. Chakor unloads the previous model first, so two models never fight for the same VRAM. Roomy GPU? Keep several loaded.</p>
-          <div class="demo" style="color:var(--purple)">llama.cpp → ollama · freed 9.0 GB · loaded</div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============== FEATURES ============== -->
-  <section class="section" id="features">
-    <div class="wrap">
-      <div class="section-head reveal">
-        <span class="eyebrow">everything it does</span>
-        <h2 class="sec-title">One workspace. A lot of capabilities.</h2>
-        <p class="sec-lede">Started as an AI chat. Became a workspace. Each piece runs locally against whatever endpoints you point it at.</p>
-      </div>
-
-      <div class="feat-grid stagger">
-        <article class="feat" style="--accent:var(--blue)">
-          <div class="tok">models</div>
-          <h4>Local or cloud, your call</h4>
-          <p>Run local through Ollama, LM Studio, or llama.cpp on GPU or plain CPU. Or paste keys for OpenAI, Anthropic, Google, or OpenRouter.</p>
-        </article>
-
-        <article class="feat" style="--accent:var(--blue)">
-          <div class="tok">models</div>
-          <h4>Switch per message</h4>
-          <p>Pick any model from the chat header and the next message uses it. Swap the local model or its context size from the UI, no restart.</p>
-        </article>
-
-        <article class="feat" style="--accent:var(--green)">
-          <div class="tok">hardware</div>
-          <h4>Fit tags for every model</h4>
-          <p>Chakor reads your RAM and GPU and marks each model FITS, TIGHT, or TOO BIG, with a recommended pick. No more crash-to-find-out.</p>
-        </article>
-
-        <article class="feat" style="--accent:var(--cyan)">
-          <div class="tok">web</div>
-          <h4>Search built in</h4>
-          <p>Turn it on per message. SearXNG first, then Brave, then DuckDuckGo as fallback, so a single dead key never stops you.</p>
-        </article>
-
-        <article class="feat" style="--accent:var(--cyan)">
-          <div class="tok">documents</div>
-          <h4>Talk to your files</h4>
-          <p>Drop in PDFs, text, or markdown and ask questions grounded in them. Answers cite what they came from.</p>
-        </article>
-
-        <article class="feat" style="--accent:var(--teal)">
-          <div class="tok">research</div>
-          <h4>Real research mode</h4>
-          <p>Plans angles, gathers sources, reads them, and writes a cited briefing instead of a single guessy answer.</p>
-        </article>
-
-        <article class="feat" style="--accent:var(--purple)">
-          <div class="tok">compare</div>
-          <h4>Blind A/B, with a leaderboard</h4>
-          <p>Send one prompt to several models at once, vote on the answers blind, and keep a running leaderboard.</p>
-        </article>
-
-        <article class="feat" style="--accent:var(--purple)">
-          <div class="tok">memory</div>
-          <h4>It remembers what matters</h4>
-          <p>The assistant keeps facts you want it to and recalls them across conversations. You decide what sticks.</p>
-        </article>
-
-        <article class="feat" style="--accent:var(--orange)">
-          <div class="tok">notes</div>
-          <h4>A notepad that lives in the app</h4>
-          <p>Keep-style notes with checklists, colors, pinning, and archive, right next to your chats.</p>
-        </article>
-
-        <article class="feat" style="--accent:var(--orange)">
-          <div class="tok">vision</div>
-          <h4>See your images</h4>
-          <p>On models that support it, attach a picture and ask about it. The attach button appears on its own.</p>
-        </article>
-
-        <article class="feat" style="--accent:var(--green)">
-          <div class="tok">private</div>
-          <h4>No telemetry, ever</h4>
-          <p>Conversations stay in a local SQLite database on your disk. Nothing phones home unless you turn on search or a cloud model.</p>
-        </article>
-
-        <article class="feat" style="--accent:var(--green)">
-          <div class="tok">private</div>
-          <h4>Multi-user and yours to rebrand</h4>
-          <p>Accounts with an admin panel, a live theme editor, and a config file that renames the whole app. Installs as a phone app too.</p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============== COMPARE ============== -->
-  <section class="section" id="compare">
-    <div class="wrap">
-      <div class="section-head reveal">
-        <span class="eyebrow">chakor vs the usual options</span>
-        <h2 class="sec-title">Open WebUI and LM Studio are good. Here is where Chakor is different.</h2>
-      </div>
-
-      <div class="cmp-wrap reveal">
-        <div class="cmp-scroll">
-          <table class="cmp">
-            <thead>
-              <tr>
-                <th scope="col">Capability</th>
-                <th scope="col" class="col-chakor">Chakor</th>
-                <th scope="col">Open WebUI</th>
-                <th scope="col">LM Studio</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr><td class="feat-name">Open source</td><td class="col-chakor"><span class="yes">✓</span></td><td><span class="yes">✓</span></td><td><span class="no">✕</span></td></tr>
-              <tr><td class="feat-name">Self-host on a server</td><td class="col-chakor"><span class="yes">✓</span></td><td><span class="yes">✓</span></td><td><span class="note">desktop only</span></td></tr>
-              <tr><td class="feat-name">Run the server on a phone</td><td class="col-chakor"><span class="yes">✓</span> <span class="note">Termux</span></td><td><span class="meh">partial</span></td><td><span class="no">✕</span></td></tr>
-              <tr><td class="feat-name">One UI for llama.cpp + Ollama + LM Studio</td><td class="col-chakor"><span class="yes">✓</span></td><td><span class="meh">partial</span></td><td><span class="no">✕</span></td></tr>
-              <tr><td class="feat-name">Knows your hardware, fit tag per model</td><td class="col-chakor"><span class="yes">✓</span></td><td><span class="no">✕</span></td><td><span class="meh">partial</span></td></tr>
-              <tr><td class="feat-name">Download GGUF from Hugging Face in-app</td><td class="col-chakor"><span class="yes">✓</span></td><td><span class="no">✕</span></td><td><span class="yes">✓</span></td></tr>
-              <tr><td class="feat-name">Background downloads you can walk away from</td><td class="col-chakor"><span class="yes">✓</span></td><td><span class="no">✕</span></td><td><span class="yes">✓</span></td></tr>
-              <tr><td class="feat-name">Frees the old model so you don't OOM on switch</td><td class="col-chakor"><span class="yes">✓</span></td><td><span class="no">✕</span></td><td><span class="note">n/a</span></td></tr>
-              <tr><td class="feat-name">Bring your own cloud keys</td><td class="col-chakor"><span class="yes">✓</span></td><td><span class="yes">✓</span></td><td><span class="note">limited</span></td></tr>
-              <tr><td class="feat-name">Web search built in</td><td class="col-chakor"><span class="yes">✓</span></td><td><span class="yes">✓</span></td><td><span class="no">✕</span></td></tr>
-              <tr><td class="feat-name">Chat with your documents</td><td class="col-chakor"><span class="yes">✓</span></td><td><span class="yes">✓</span></td><td><span class="note">beta</span></td></tr>
-              <tr><td class="feat-name">Multi-user + admin panel</td><td class="col-chakor"><span class="yes">✓</span></td><td><span class="yes">✓</span></td><td><span class="no">✕</span></td></tr>
-              <tr><td class="feat-name">Blind A/B model compare + leaderboard</td><td class="col-chakor"><span class="yes">✓</span></td><td><span class="meh">partial</span></td><td><span class="no">✕</span></td></tr>
-              <tr><td class="feat-name">Notes + assistant memory</td><td class="col-chakor"><span class="yes">✓</span></td><td><span class="meh">partial</span></td><td><span class="no">✕</span></td></tr>
-              <tr><td class="feat-name">Rebrand from one config file</td><td class="col-chakor"><span class="yes">✓</span></td><td><span class="no">✕</span></td><td><span class="no">✕</span></td></tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============== WHY ============== -->
-  <section class="section" id="why">
-    <div class="wrap">
-      <div class="section-head reveal">
-        <span class="eyebrow">why this exists</span>
-        <h2 class="sec-title">Privacy is not a setting you toggle.</h2>
-      </div>
-
-      <div class="why-grid">
-        <div class="why-copy reveal">
-          <p class="kicker">Every big AI app wants the same deal. You hand over your questions, your documents, your half formed ideas at 2am, and they keep all of it on servers you will never see.</p>
-          <p>Self hosting flips that. You run the model. You hold the data. No account to harvest, no telemetry phoning home, no data broker in the middle, and no government letter they can answer with your chat history, because they never had it.</p>
-          <p><strong>It is where the software runs.</strong> Chakor runs on your machine, talks to nobody you did not ask it to, and still tries to be genuinely nice to use. That is the whole pitch.</p>
-        </div>
-
-        <div class="terminal reveal" id="terminal" aria-hidden="true">
-          <div class="term-bar">
-            <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
-            <span class="win-title">you@yourmachine: ~/chakor</span>
-          </div>
-          <div class="term-body" id="termBody"></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============== GET STARTED ============== -->
-  <section class="section" id="start">
-    <div class="wrap">
-      <div class="section-head reveal">
-        <span class="eyebrow">get started</span>
-        <h2 class="sec-title">Pick whichever fits you.</h2>
-        <p class="sec-lede">All three end with the app on <code style="font-family:var(--ff-mono);color:var(--cyan)">http://localhost:3001</code>. The first account you register becomes the admin.</p>
-      </div>
-
-      <div class="start-card reveal">
-        <div class="tabs" role="tablist" aria-label="Install method">
-          <button class="tab" role="tab" id="tab-docker"   aria-controls="panel-docker"   aria-selected="true">Docker</button>
-          <button class="tab" role="tab" id="tab-install"  aria-controls="panel-install"  aria-selected="false" tabindex="-1">One-command installer</button>
-          <button class="tab" role="tab" id="tab-manual"   aria-controls="panel-manual"   aria-selected="false" tabindex="-1">Manual</button>
-        </div>
-
-        <!-- Docker -->
-        <div class="tabpanel" role="tabpanel" id="panel-docker" aria-labelledby="tab-docker">
-          <p class="tab-note">The least fuss. Install Docker, then run two lines. A secret key is generated for you. Want a model bundled in too? <code>docker compose --profile ollama up -d</code>.</p>
-          <div class="cmd"><span class="gp">$ </span>git clone https://github.com/TYFSADIK/chakor.git &amp;&amp; cd chakor<button class="copy" data-copy="git clone https://github.com/TYFSADIK/chakor.git && cd chakor" aria-label="Copy command"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>copy</button></div>
-          <div class="cmd"><span class="gp">$ </span>docker compose up -d<button class="copy" data-copy="docker compose up -d" aria-label="Copy command"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>copy</button></div>
-        </div>
-
-        <!-- Installer -->
-        <div class="tabpanel" role="tabpanel" id="panel-install" aria-labelledby="tab-install" hidden>
-          <p class="tab-note">The hands-off path. The installer works out your OS and package manager, installs Git, a build chain, Node 20+, and Ollama, then starts Chakor. Add <code>--all</code> for a local llama.cpp build with CUDA auto-detected. On Android, run it inside Termux and your phone becomes the server.</p>
-          <div class="cmd"><span class="gp">$ </span>git clone https://github.com/TYFSADIK/chakor.git &amp;&amp; cd chakor<button class="copy" data-copy="git clone https://github.com/TYFSADIK/chakor.git && cd chakor" aria-label="Copy command"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>copy</button></div>
-          <div class="cmd"><span class="gp">$ </span>bash install.sh <span class="cm"># or: bash install.sh --all</span><button class="copy" data-copy="bash install.sh" aria-label="Copy command"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>copy</button></div>
-        </div>
-
-        <!-- Manual -->
-        <div class="tabpanel" role="tabpanel" id="panel-manual" aria-labelledby="tab-manual" hidden>
-          <p class="tab-note">For developers. Set <code>AUTH_SECRET</code> in <code>.env.local</code> with <code>openssl rand -base64 32</code>, then build and start.</p>
-          <div class="cmd"><span class="gp">$ </span>git clone https://github.com/TYFSADIK/chakor.git &amp;&amp; cd chakor<button class="copy" data-copy="git clone https://github.com/TYFSADIK/chakor.git && cd chakor" aria-label="Copy command"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>copy</button></div>
-          <div class="cmd"><span class="gp">$ </span>npm install --legacy-peer-deps<button class="copy" data-copy="npm install --legacy-peer-deps" aria-label="Copy command"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>copy</button></div>
-          <div class="cmd"><span class="gp">$ </span>cp .env.example .env.local <span class="cm"># then set AUTH_SECRET</span><button class="copy" data-copy="cp .env.example .env.local" aria-label="Copy command"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>copy</button></div>
-          <div class="cmd"><span class="gp">$ </span>npm run build &amp;&amp; npm start<button class="copy" data-copy="npm run build && npm start" aria-label="Copy command"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>copy</button></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============== FINAL CTA ============== -->
-  <section class="final">
-    <div class="wrap">
-      <span class="eyebrow" style="justify-content:center">chakor is yours</span>
-      <h2>Your AI should answer to you, not to a data broker.</h2>
-      <p>Run it on your laptop. Run it on a server. Run it on your old phone in a drawer. Keep every word.</p>
-      <div class="hero-cta">
-        <a class="btn btn-primary" href="#start">Get started</a>
-        <a class="btn btn-ghost" href="https://github.com/TYFSADIK/chakor" target="_blank" rel="noopener">
+        <a href="https://github.com/TYFSADIK/chakor" class="btn btn-ghost" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
           Star on GitHub
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15 9 22 9 17 14 19 21 12 17 5 21 7 14 2 9 9 9"/></svg>
         </a>
       </div>
-      <div class="hero-pills" style="margin-top:1.8rem">
-        <span class="pill">self-hosted</span>
-        <span class="pill">bring your own models</span>
-        <span class="pill">local-first</span>
-        <span class="pill">MIT licensed</span>
-        <span class="pill">no telemetry</span>
-      </div>
+      <p class="cta-note">MIT licensed · No account required · No cloud · No tracking</p>
     </div>
-  </section>
-
-  <!-- ============== FOOTER ============== -->
-  <footer>
-    <div class="wrap">
-      <div class="foot-row">
-        <span class="foot-brand"><span style="color:var(--muted)">~/</span>chakor</span>
-        <button class="totop" id="totop">back to top ↑</button>
-      </div>
-      <div class="foot-tags hero-pills" style="margin-top:1.2rem">
-        <span class="pill">No cloud</span>
-        <span class="pill">No tracking</span>
-        <span class="pill">No big tech</span>
-      </div>
-      <p class="foot-meta" style="margin-top:1.3rem">
-        © 2026 Chakor · <a href="https://github.com/TYFSADIK/chakor/blob/main/LICENSE" target="_blank" rel="noopener">MIT license</a> ·
-        <a href="https://github.com/TYFSADIK/chakor" target="_blank" rel="noopener">Source</a> ·
-        Built for people who would rather run their own tools.
-      </p>
-      <p class="foot-note">Because I am unemployed.</p>
-    </div>
-  </footer>
+  </div>
+</section>
 
 </main>
 
+<!-- =========================================================
+     FOOTER
+     ========================================================= -->
+<footer>
+  <div class="wrap">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <strong>Chakor</strong> — open source AI workspace.
+        Built with Next.js 15, SQLite, and zero tracking.
+      </div>
+      <ul class="footer-links" role="list">
+        <li><a href="https://github.com/TYFSADIK/chakor" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://github.com/TYFSADIK/chakor/blob/main/README.md" target="_blank" rel="noopener">Docs</a></li>
+        <li><a href="https://github.com/TYFSADIK/chakor/blob/main/CHANGELOG.md" target="_blank" rel="noopener">Changelog</a></li>
+        <li><a href="https://github.com/TYFSADIK/chakor/issues" target="_blank" rel="noopener">Issues</a></li>
+        <li><a href="https://github.com/TYFSADIK/chakor/blob/main/LICENSE" target="_blank" rel="noopener">MIT License</a></li>
+      </ul>
+      <span class="footer-badge">MIT · v latest</span>
+    </div>
+  </div>
+</footer>
+
 <script>
-(function(){
-  "use strict";
-  var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+// Nav scroll effect
+const nav = document.getElementById('nav');
+const onScroll = () => nav.classList.toggle('scrolled', window.scrollY > 12);
+window.addEventListener('scroll', onScroll, { passive: true });
+onScroll();
 
-  /* ---- nav: scrolled state ---- */
-  var nav = document.getElementById("nav");
-  function onScroll(){ nav.classList.toggle("scrolled", window.scrollY > 12); }
-  onScroll();
-  window.addEventListener("scroll", onScroll, { passive:true });
-
-  /* ---- mobile menu ---- */
-  var toggle = document.getElementById("navToggle");
-  var links = document.getElementById("navLinks");
-  toggle.addEventListener("click", function(){
-    var open = links.classList.toggle("open");
-    toggle.setAttribute("aria-expanded", open ? "true" : "false");
+// Mobile nav toggle
+const toggle = document.getElementById('nav-toggle');
+const links  = document.getElementById('nav-links');
+toggle.addEventListener('click', () => {
+  const open = links.classList.toggle('open');
+  toggle.setAttribute('aria-expanded', String(open));
+});
+// Close on link click
+links.querySelectorAll('a').forEach(a => {
+  a.addEventListener('click', () => {
+    links.classList.remove('open');
+    toggle.setAttribute('aria-expanded', 'false');
   });
-  links.addEventListener("click", function(e){
-    if(e.target.tagName === "A"){
-      links.classList.remove("open");
-      toggle.setAttribute("aria-expanded","false");
+});
+
+// Install tabs
+document.querySelectorAll('.tab-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const key = btn.dataset.tab;
+    document.querySelectorAll('.tab-btn').forEach(b => {
+      b.classList.toggle('active', b === btn);
+      b.setAttribute('aria-selected', b === btn ? 'true' : 'false');
+    });
+    document.querySelectorAll('.tab-pane').forEach(p => {
+      p.classList.toggle('active', p.id === 'tab-' + key);
+    });
+  });
+});
+
+// Copy buttons
+document.querySelectorAll('.copy-btn').forEach(btn => {
+  btn.addEventListener('click', async () => {
+    const target = document.getElementById(btn.dataset.copy);
+    if (!target) return;
+    try {
+      await navigator.clipboard.writeText(target.textContent.trim());
+      btn.classList.add('copied');
+      btn.childNodes[btn.childNodes.length - 1].textContent = ' Copied!';
+      setTimeout(() => {
+        btn.classList.remove('copied');
+        btn.childNodes[btn.childNodes.length - 1].textContent = ' Copy';
+      }, 2000);
+    } catch {}
+  });
+});
+
+// FAQ accordion
+document.querySelectorAll('.faq-q').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const item = btn.closest('.faq-item');
+    const isOpen = item.classList.contains('open');
+    // Close all
+    document.querySelectorAll('.faq-item').forEach(i => {
+      i.classList.remove('open');
+      i.querySelector('.faq-q').setAttribute('aria-expanded', 'false');
+    });
+    if (!isOpen) {
+      item.classList.add('open');
+      btn.setAttribute('aria-expanded', 'true');
     }
   });
+});
 
-  /* ---- back to top ---- */
-  document.getElementById("totop").addEventListener("click", function(){
-    window.scrollTo({ top:0, behavior: reduce ? "auto" : "smooth" });
-  });
-
-  /* ---- copy buttons ---- */
-  document.querySelectorAll(".copy").forEach(function(btn){
-    btn.addEventListener("click", function(){
-      var text = btn.getAttribute("data-copy") || "";
-      var done = function(){
-        var label = btn.querySelector("svg") ? btn.lastChild : btn;
-        btn.classList.add("done");
-        var original = btn.querySelector("svg");
-        btn.innerHTML = "";
-        var span = document.createElement("span");
-        span.textContent = "copied";
-        btn.appendChild(span);
-        setTimeout(function(){
-          btn.classList.remove("done");
-          btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>copy';
-        }, 1500);
-      };
-      if(navigator.clipboard && navigator.clipboard.writeText){
-        navigator.clipboard.writeText(text).then(done).catch(function(){ fallbackCopy(text); done(); });
-      } else { fallbackCopy(text); done(); }
-    });
-  });
-  function fallbackCopy(text){
-    var t = document.createElement("textarea");
-    t.value = text; t.style.position="fixed"; t.style.opacity="0";
-    document.body.appendChild(t); t.select();
-    try { document.execCommand("copy"); } catch(e){}
-    document.body.removeChild(t);
-  }
-
-  /* ---- tabs ---- */
-  var tabs = Array.prototype.slice.call(document.querySelectorAll('[role="tab"]'));
-  function selectTab(tab){
-    tabs.forEach(function(t){
-      var selected = t === tab;
-      t.setAttribute("aria-selected", selected ? "true":"false");
-      t.tabIndex = selected ? 0 : -1;
-      var panel = document.getElementById(t.getAttribute("aria-controls"));
-      if(panel) panel.hidden = !selected;
-    });
-  }
-  tabs.forEach(function(tab, i){
-    tab.addEventListener("click", function(){ selectTab(tab); });
-    tab.addEventListener("keydown", function(e){
-      var idx = i;
-      if(e.key === "ArrowRight"){ idx = (i+1) % tabs.length; }
-      else if(e.key === "ArrowLeft"){ idx = (i-1+tabs.length) % tabs.length; }
-      else { return; }
-      e.preventDefault();
-      tabs[idx].focus(); selectTab(tabs[idx]);
-    });
-  });
-
-  /* ---- scroll reveal ---- */
-  if(reduce){
-    document.querySelectorAll(".reveal,.stagger").forEach(function(el){ el.classList.add("in"); });
-  } else if("IntersectionObserver" in window){
-    var io = new IntersectionObserver(function(entries){
-      entries.forEach(function(en){
-        if(en.isIntersecting){ en.target.classList.add("in"); io.unobserve(en.target); }
-      });
-    }, { threshold:0.14, rootMargin:"0px 0px -8% 0px" });
-    document.querySelectorAll(".reveal,.stagger").forEach(function(el){ io.observe(el); });
-  } else {
-    document.querySelectorAll(".reveal,.stagger").forEach(function(el){ el.classList.add("in"); });
-  }
-
-  /* ---- terminal typing ---- */
-  var termBody = document.getElementById("termBody");
-  var lines = [
-    { cls:"prompt", text:"$ ", typed:"chakor --where-does-my-data-go" },
-    { cls:"out",    text:"  nowhere. it is a file on your disk." },
-    { cls:"prompt", text:"$ ", typed:"chakor --why" },
-    { cls:"out",    text:"  privacy is not a setting you toggle." },
-    { cls:"accent", text:"  it is where the software runs." }
-  ];
-  function buildStatic(){
-    termBody.innerHTML = "";
-    lines.forEach(function(l){
-      var div = document.createElement("div");
-      div.className = l.cls;
-      div.textContent = (l.text + (l.typed||"")).replace(/^\$ /, "$ ");
-      if(l.cls === "prompt"){ div.innerHTML = '<span class="prompt">$ </span><span class="arg">'+escapeHtml(l.typed||"")+'</span>'; }
-      termBody.appendChild(div);
-    });
-    var c = document.createElement("span"); c.className="term-cursor"; termBody.appendChild(c);
-  }
-  function escapeHtml(s){ return s.replace(/[&<>]/g, function(m){ return ({'&':'&amp;','<':'&lt;','>':'&gt;'})[m]; }); }
-
-  function runTyping(){
-    termBody.innerHTML = "";
-    var li = 0;
-    function nextLine(){
-      if(li >= lines.length){
-        var c = document.createElement("span"); c.className="term-cursor"; termBody.appendChild(c);
-        return;
-      }
-      var l = lines[li];
-      var div = document.createElement("div");
-      div.className = l.cls;
-      termBody.appendChild(div);
-      if(l.typed){
-        div.innerHTML = '<span class="prompt">'+l.text+'</span><span class="arg"></span>';
-        var argEl = div.querySelector(".arg");
-        var cursor = document.createElement("span"); cursor.className="term-cursor"; div.appendChild(cursor);
-        var ci = 0;
-        (function type(){
-          if(ci < l.typed.length){
-            argEl.textContent += l.typed.charAt(ci++);
-            setTimeout(type, 42);
-          } else {
-            div.removeChild(cursor);
-            li++; setTimeout(nextLine, 380);
-          }
-        })();
-      } else {
-        // print output line with a short delay, char-less
-        div.textContent = l.text;
-        li++; setTimeout(nextLine, 260);
-      }
-    }
-    nextLine();
-  }
-
-  if(reduce){
-    buildStatic();
-  } else if("IntersectionObserver" in window){
-    var tio = new IntersectionObserver(function(entries){
-      entries.forEach(function(en){
-        if(en.isIntersecting){ runTyping(); tio.unobserve(en.target); }
-      });
-    }, { threshold:0.4 });
-    tio.observe(document.getElementById("terminal"));
-  } else {
-    runTyping();
-  }
-})();
+// Scroll reveal
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+}, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 </script>
+
 </body>
 </html>
